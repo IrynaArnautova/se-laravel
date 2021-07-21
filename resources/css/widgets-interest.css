@@ -1,0 +1,65 @@
+/*Виджет 'все о блоге'*/
+.widgets-blog {
+    background: linear-gradient(89.97deg, #007BFF 0%, #7F21F7 67.15%);
+    padding: 64px 20px;
+    position: relative;
+}
+.widgets-blog:after {
+    content: '';
+    width: 170px;
+    height: 142px;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 180px);
+    background: url(/svg/ic-blog.svg) no-repeat center/contain;
+}
+.widgets-blog .base_container {
+    display: flex;
+    align-items: center;
+}
+.widgets-blog_title {
+    font: 700 30px/34px 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+.widgets-blog_title span {
+    color: #FF9017;
+}
+.widgets-blog_btn {
+    margin: 0 0 0 auto;
+}
+
+@media(max-width: 1180px) {
+    .widgets-blog .base_container {
+        width: auto;
+    }
+}
+@media(max-width: 780px) {
+    .widgets-blog {
+        padding: 60px 40px;
+    }
+    .widgets-blog:after {
+        left: auto;
+        right: 30px;
+    }
+    .widgets-blog .base_container {
+        flex-direction: column;
+    }
+    .widgets-blog_title {
+        text-align: center;
+        margin: 0 0 36px;
+    }
+    .widgets-blog_btn {
+        margin: 0;
+    }
+}
+@media(max-width: 600px) {
+    .widgets-blog_title {
+        font-size: 30px;
+        line-height: 120%;
+    }
+    .widgets-blog_title br {
+        display: none;
+    }
+}

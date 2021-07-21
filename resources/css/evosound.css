@@ -1,0 +1,124 @@
+@import './widgets-terms.css';
+@import './widgets-dealers.css';
+
+/*EVOSOUND*/
+.evosound {
+    padding: 90px 20px;
+}
+.evosound_title {
+    font: 400 68px/73px 'Open Sans', sans-serif;
+    margin: 0 0 80px;
+    color: #222020;
+}
+.evosound_title a {
+    color: inherit;
+}
+.evosound_images {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto 24px;
+}
+.evosound_img:hover {
+    opacity: 0.8;
+}
+.evosound_img {
+    display: none;
+}
+.evosound_img.active {
+    display: block;
+}
+.evosound_name {
+    font: 700 45px/50px 'Open Sans', sans-serif;
+    color: #222020;
+    margin: 0 0 10px;
+}
+.evosound_subtitle {
+    font: 400 20px/26px 'Open Sans', sans-serif;
+    color: #000;
+    margin: 0 0 28px;
+}
+.evosound_btn {
+    font: 600 14px/18px 'Open Sans', sans-serif;
+    color: #222020;
+    padding: 5px 11px;
+    margin: 0 2px 28px;
+    border-radius: 30px;
+    border: thin solid rgba(34, 32, 32, 0.1);
+}
+.evosound_btn-black {
+    background: #222020;
+    color: #FFFFFF;
+}
+.evosound_btn-white {
+    background: #fff;
+    color: #222020;
+}
+.evosound_btn.active {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.evosound_btn-white:hover {
+    color: rgba(34, 32, 32, 0.5);
+}
+.evosound_btn-black:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.evosound_link {
+    display: block;
+    color: #00AFED;
+    margin: 28px 0 0;
+    text-decoration: underline;
+    font: 600 20px/24px 'Open Sans', sans-serif;
+}
+.evosound_link:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+.evosound_separator {
+    width: 100%;
+    border-bottom: 20px solid #F2F2F2;
+}
+
+
+/*EVOSOUND-OLD*/
+.evosound-old {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 0;
+    background: #EEEFEE;
+    margin: 0 0 100px;
+}
+.evosound-old_img {
+    width: 375px;
+    margin: 0 14px 0 0;
+}
+.evosound-old_label {
+    padding: 6px 13px;
+    color: #222020;
+    font: 400 17px/24px 'Open Sans', sans-serif;
+    background: #D8D8D8;
+    border-radius: 18px;
+}
+.evosound-old_title {
+    margin: 10px 0 14px;
+    font: 700 28px/34px 'Open Sans', sans-serif;
+}
+
+@media(max-width: 600px) {
+    .evosound_title {
+        font: 400 34px/40px 'Open Sans', sans-serif;
+    }
+    .evosound_name {
+        font: 700 28px/30px 'Open Sans', sans-serif;
+        color: #222020;
+        margin: 0 0 10px;
+    }
+    .evosound-old {
+        flex-direction: column;
+    }
+    .evosound-old_img {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 0 14px;
+    }
+}

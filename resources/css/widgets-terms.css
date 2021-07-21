@@ -1,0 +1,25 @@
+/*Виджет 'Условия доставки, оплаты и правила возврата'*/
+.widgets-terms {
+    padding: 40px 20px 260px;
+    text-align: center;
+    background: url(/images/ic-terms.jpg) no-repeat center/auto;
+}
+.widgets-terms_title {
+    color: #222020;
+    margin: 0 0 20px;
+    font: 400 32px/44px 'Open Sans', sans-serif;
+}
+.widgets-terms_link {
+    color: #00afed;
+    text-decoration: underline;
+    font: 700 24px/24px 'Open Sans', sans-serif;
+}
+@media(max-width: 767px) {
+    .widgets-terms {
+        padding: 150px 20px;
+        background: url(/images/ic-terms-mob.jpg) no-repeat center/auto;
+    }
+    .widgets-terms_title {
+        font: 400 26px/30px 'Open Sans', sans-serif;
+    }
+}
