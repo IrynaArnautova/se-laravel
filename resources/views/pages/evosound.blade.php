@@ -44,7 +44,7 @@
         </a>
         <h2 class="evosound_name">EvoSound Sphere 2.1</h2>
         <p class="evosound_subtitle">True Stereo аудиосистема для караоке</p>
-        <div class=flex_ai-c_jc-c">
+        <div class="flex_ai-c_jc-c">
             <a href="javascript:;" class="evosound_btn evosound_btn-black js_show-tab active" data-tab="sphereBlack">Черный</a>
             <a href="javascript:;" class="evosound_btn evosound_btn-white js_show-tab" data-tab="sphereWhite">Жемчужный</a>
         </div>
