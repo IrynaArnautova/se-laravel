@@ -12,7 +12,7 @@
 
 @section('content')
     <main class="bar-main">
-        <img src="/images/evosound/main.jpg" class="bar-main_img" alt="@lang('bar.main_img')">
+        <img src="/images/evosound/main.jpg" class="bar-main_img" alt="@lang('bar.alt_main_img')">
         <div class="base_container base_row bar-main_detail">
             <div>
                 <h1 class="bar-main_title">EvoSound Bar</h1>
@@ -35,34 +35,34 @@
                 </div>
                 <div class="bar-main_system active" id="barBlack">
                     <div class="bar-main_tab">
-                        <img src="/images/evosound/slider-black-1.jpg" class="bar-main_tab-img barTab-1 active" id="" alt="@lang('bar.main_tab_img_black1')">
-                        <img src="/images/evosound/slider-black-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.main_tab_img_black2')">
-                        <img src="/images/evosound/slider-black-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.main_tab_img_black3')">
-                        <img src="/images/evosound/slider-black-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.main_tab_img_black4')">
-                        <img src="/images/evosound/slider-black-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.main_tab_img_black5')">
+                        <img src="/images/evosound/slider-black-1.jpg" class="bar-main_tab-img barTab-1 active" id="" alt="@lang('bar.alt_main_tab_img_black1')">
+                        <img src="/images/evosound/slider-black-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.alt_main_tab_img_black2')">
+                        <img src="/images/evosound/slider-black-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.alt_main_tab_img_black3')">
+                        <img src="/images/evosound/slider-black-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.alt_main_tab_img_black4')">
+                        <img src="/images/evosound/slider-black-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.alt_main_tab_img_black5')">
                     </div>
                     <div class="bar-main_tab-content">
-                        <img src="/images/evosound/slider-black-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.main_tab_img_black1')">
-                        <img src="/images/evosound/slider-black-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.main_tab_img_black2')">
-                        <img src="/images/evosound/slider-black-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.main_tab_img_black3')">
-                        <img src="/images/evosound/slider-black-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.main_tab_img_black4')">
-                        <img src="/images/evosound/slider-black-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.main_tab_img_black5')">
+                        <img src="/images/evosound/slider-black-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.alt_main_tab_img_black1')">
+                        <img src="/images/evosound/slider-black-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.alt_main_tab_img_black2')">
+                        <img src="/images/evosound/slider-black-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.alt_main_tab_img_black3')">
+                        <img src="/images/evosound/slider-black-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.alt_main_tab_img_black4')">
+                        <img src="/images/evosound/slider-black-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.alt_main_tab_img_black5')">
                     </div>
                 </div>
                 <div class="bar-main_system" id="barWhite">
                     <div class="bar-main_tab">
-                        <img src="/images/evosound/slider-white-1.jpg" class="bar-main_tab-img barTab-1 active" alt="@lang('bar.main_tab_img_white1')">
-                        <img src="/images/evosound/slider-white-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.main_tab_img_white2')">
-                        <img src="/images/evosound/slider-white-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.main_tab_img_white3')">
-                        <img src="/images/evosound/slider-white-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.main_tab_img_white4')">
-                        <img src="/images/evosound/slider-white-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.main_tab_img_white5')">
+                        <img src="/images/evosound/slider-white-1.jpg" class="bar-main_tab-img barTab-1 active" alt="@lang('bar.alt_main_tab_img_white1')">
+                        <img src="/images/evosound/slider-white-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.alt_main_tab_img_white2')">
+                        <img src="/images/evosound/slider-white-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.alt_main_tab_img_white3')">
+                        <img src="/images/evosound/slider-white-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.alt_main_tab_img_white4')">
+                        <img src="/images/evosound/slider-white-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.alt_main_tab_img_white5')">
                     </div>
                     <div class="bar-main_tab-content">
-                        <img src="/images/evosound/slider-white-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.main_tab_img_white1')">
-                        <img src="/images/evosound/slider-white-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.main_tab_img_white2')">
-                        <img src="/images/evosound/slider-white-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.main_tab_img_white3')">
-                        <img src="/images/evosound/slider-white-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.main_tab_img_white4')">
-                        <img src="/images/evosound/slider-white-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.main_tab_img_white5')">
+                        <img src="/images/evosound/slider-white-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.alt_main_tab_img_white1')">
+                        <img src="/images/evosound/slider-white-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.alt_main_tab_img_white2')">
+                        <img src="/images/evosound/slider-white-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.alt_main_tab_img_white3')">
+                        <img src="/images/evosound/slider-white-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.alt_main_tab_img_white4')">
+                        <img src="/images/evosound/slider-white-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.alt_main_tab_img_white5')">
                     </div>
                 </div>
             </div>
