@@ -39,14 +39,8 @@ return [
     'specification_txt4' => 'Частотная характеристика: 20 Гц – 20 000 Гц (+/- 2 дБ)',
     'specification_txt5' => 'Максимальная потребляемая мощность: 550 Вт',
     'specification_txt6' => 'Напряжение питания: 220 В, 50 Гц / 60 Гц',
-    'specification_link' => 'Больше информации',
-    'specification_details1' => 'Cаундбар',
-    'specification_details2' => 'Cабвуфер',
-    'specification_height' => 'Высота:',
-    'specification_length' => 'Длина:',
-    'specification_width' => 'Ширина:',
-    'specification_weight' => 'Вес:',
 
+    
     //SET
     'set_title' => 'Синергия звука для<br> лучшего домашнего<br> караоке',
     'set_link' => 'Подробнее о караоке-комплекте',

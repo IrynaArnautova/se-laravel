@@ -3,31 +3,31 @@
         <img src="/images/menu/logo.svg" alt="" width="100%" height="100%">
     </a>
     <div class="base_dropdown js_show-first">
-        <a href="#" class="header-desk_link js_main-link">Продукты</a>
+        <a href="#" class="header-desk_link js_main-link">@lang('header.title')</a>
         <div class="base_dropdown-content header-desk_dropdown js_parent-main">
             <div>
-                <p class="header-desk_title">Продукты</p>
-                <a href="/karaoke-system/" class="header-desk_tab js_hover-main js_show-content" data-hover="karaokeSystemsTab">Караоке-системы</a>
-                <a href="/karaoke-equipment-systems/" class="header-desk_tab js_hover-main" data-hover="karaokeEquipmentsTab">Караоке-оборудование</a>
-                <a href="/komplekty-dlya-karaoke/" class="header-desk_tab js_hover-main" data-hover="karaokeSetsTab">Караоке-комплекты</a>
+                <p class="header-desk_title">@lang('header.title')</p>
+                <a href="/karaoke-system/" class="header-desk_tab js_hover-main js_show-content" data-hover="karaokeSystemsTab">@lang('header.tab1')</a>
+                <a href="/karaoke-equipment-systems/" class="header-desk_tab js_hover-main" data-hover="karaokeEquipmentsTab">@lang('header.tab2')</a>
+                <a href="/komplekty-dlya-karaoke/" class="header-desk_tab js_hover-main" data-hover="karaokeSetsTab">@lang('header.tab3')</a>
             </div>
             <div class="header-desk_subtabs base_main-hover js_parent-tab js_show-content" id="karaokeSystemsTab">
                 <div class="header-desk_subtabs-links">
                     <a href="/evobox-premium/" class="header-desk_subtab js_hover-tab js_show-content" data-hover="evoboxPremiumTab">
                         EVOBOX Premium
-                        <span>для дома</span>
+                        <span>@lang('header.subtab1')</span>
                     </a>
                     <a href="/karaoke-system/evobox/" class="header-desk_subtab js_hover-tab" data-hover="evoboxTab">
                         EVOBOX
-                        <span>для дома</span>
+                        <span>@lang('header.subtab1')</span>
                     </a>
                     <a href="/karaoke-system/evolution-pro2/" class="header-desk_subtab js_hover-tab" data-hover="pro2Tab">
                         Evolution Pro2
-                        <span>для караоке-клуба</span>
+                        <span>@lang('header.subtab2')</span>
                     </a>
                     <a href="https://trade-in.studio-evolution.com/" class="header-desk_subtab js_hover-tab" data-hover="tradeInTab">
                         Trade-In
-                        <span>программа обмена</span>
+                        <span>@lang('header.subtab3')</span>
                     </a>
                 </div>
                 <div class="header-desk_images">
@@ -40,20 +40,20 @@
             <div class="header-desk_subtabs base_main-hover js_parent-tab" id="karaokeEquipmentsTab">
                 <div class="header-desk_subtabs-links">
                     <a href="/microphones-se-200d/" class="header-desk_subtab js_hover-tab active" data-hover="micTab">
-                        Микрофоны SE•200D
-                        <span>цифровые микрофоны</span>
+                        @lang('header.subtab4_1') SE•200D
+                        <span>@lang('header.subtab4_2')</span>
                     </a>
                     <a href="/evosound-bar/" class="header-desk_subtab js_hover-tab" data-hover="barTab">
                         EvoSound Bar
-                        <span>караоке саундбар</span>
+                        <span>@lang('header.subtab5')</span>
                     </a>
                     <a href="/evosound-sphere/" class="header-desk_subtab js_hover-tab" data-hover="sphereTab">
                         EvoSound Sphere
-                        <span>стереосистема</span>
+                        <span>@lang('header.subtab6')</span>
                     </a>
                     <a href="/evocase/" class="header-desk_subtab js_hover-tab" data-hover="caseTab">
                         EvoСase
-                        <span>для транспортировки</span>
+                        <span>@lang('header.subtab7')</span>
                     </a>
                 </div>
                 <div class="header-desk_images">
@@ -65,9 +65,9 @@
             </div>
             <div class="header-desk_subtabs base_main-hover js_parent-tab" id="karaokeSetsTab">
                 <div class="header-desk_subtabs-links">
-                    <a href="/karaoke-komplekty-s-mikrofonami/" class="header-desk_subtab js_hover-tab active" data-hover="complect1Tab">Караоке + микрофоны</a>
-                    <a href="/karaoke-komplekty-s-saundbarom/" class="header-desk_subtab js_hover-tab" data-hover="complect2Tab">Караоке + микрофоны + <br>саундбар</a>
-                    <a href="/karaoke-komplekt-so-stereosistemoj/" class="header-desk_subtab js_hover-tab" data-hover="complect3Tab">Караоке + микрофоны + <br>стереосистема</a>
+                    <a href="/karaoke-komplekty-s-mikrofonami/" class="header-desk_subtab js_hover-tab active" data-hover="complect1Tab">@lang('header.karaoke_komplekty1')</a>
+                    <a href="/karaoke-komplekty-s-saundbarom/" class="header-desk_subtab js_hover-tab" data-hover="complect2Tab">@lang('header.karaoke_komplekty2')</a>
+                    <a href="/karaoke-komplekt-so-stereosistemoj/" class="header-desk_subtab js_hover-tab" data-hover="complect3Tab">@lang('header.karaoke_komplekty3')</a>
                 </div>
                 <div class="header-desk_images">
                     <img src="/images/menu/complect-1.jpg" class="base_tab-hover active" id="complect1Tab" alt="" width="100%" height="100%">
@@ -77,12 +77,12 @@
             </div>
         </div>
     </div>
-    <a href="/clubs/" class="header-desk_link">Клубы</a>
-    <a href="/songs-and-clips/" class="header-desk_link">Каталог</a>
-    <a href="/support/" class="header-desk_link">Помощь</a>
-    <a href="/history/" class="header-desk_link">О компании</a>
-    <a href="https://reviews.studio-evolution.com/" class="header-desk_link">Отзывы</a>
-    <a href="/contacts/" class="header-desk_link">Контакты</a>
+    <a href="/clubs/" class="header-desk_link">@lang('header.menu_link1')</a>
+    <a href="/songs-and-clips/" class="header-desk_link">@lang('header.menu_link2')</a>
+    <a href="/support/" class="header-desk_link">@lang('header.menu_link3')</a>
+    <a href="/history/" class="header-desk_link">@lang('header.menu_link4')</a>
+    <a href="https://reviews.studio-evolution.com/" class="header-desk_link">@lang('header.menu_link5')</a>
+    <a href="/contacts/" class="header-desk_link">@lang('header.menu_link6')</a>
     <div class="base_dropdown">
         <a href="#" class="header-desk_link js_main-link js_set-lang">UA</a>
         <div class="base_dropdown-content header-desk_lang">
@@ -96,11 +96,11 @@
         <div class="base_dropdown-content header-desk_call-content">
             <div class="header-desk_call-row">
                 <a class="header-desk_call-phone" href="tel:0443793151" target="_blank">0 (44) 379-31-51</a>
-                <span>Отдел продаж<br>Пн. – пт.: 9:00 – 18:00</span>
+                <span>@lang('header.call_phone1') 9:00 – 18:00</span>
             </div>
             <div class="header-desk_call-row">
                 <a class="header-desk_call-phone" href="tel:0800212354" target="_blank">0 (800) 212-354</a>
-                <span>Техническая поддержка<br>Пн. – пт.: 9:00 – 18:00</span>
+                <span>@lang('header.call_phone2') 9:00 – 18:00</span>
             </div>
         </div>
     </div>
@@ -123,13 +123,13 @@
             <a href="javascript:;" data-modal="modalMenu" class="header-mobile_login"></a>
         </div>
         <div class="header-mobile_menu js_header-modal" id="modalMenuNav">
-            <a href="javascript:;" data-modal="modalMenuProduct" class="header-mobile_menu-link header-mobile_menu-arrow js_show-product">Продукты</a>
-            <a href="/clubs/" class="header-mobile_menu-link">Клубы</a>
-            <a href="/songs-and-clips/" class="header-mobile_menu-link">Каталог</a>
-            <a href="/support/" class="header-mobile_menu-link">Помощь</a>
-            <a href="/history/" class="header-mobile_menu-link">О компании</a>
-            <a href="https://reviews.studio-evolution.com/" class="header-mobile_menu-link">Отзывы</a>
-            <a href="/contacts/" class="header-mobile_menu-link">Контакты</a>
+            <a href="javascript:;" data-modal="modalMenuProduct" class="header-mobile_menu-link header-mobile_menu-arrow js_show-product">@lang('header.title')</a>
+            <a href="/clubs/" class="header-mobile_menu-link">@lang('header.menu_link1')</a>
+            <a href="/songs-and-clips/" class="header-mobile_menu-link">@lang('header.menu_link2')</a>
+            <a href="/support/" class="header-mobile_menu-link">@lang('header.menu_link3')</a>
+            <a href="/history/" class="header-mobile_menu-link">@lang('header.menu_link4')</a>
+            <a href="https://reviews.studio-evolution.com/" class="header-mobile_menu-link">@lang('header.menu_link5')</a>
+            <a href="/contacts/" class="header-mobile_menu-link">@lang('header.menu_link6')</a>
             <div class="header-mobile_menu-langs">
                 <a href="javascript:;" class="header-mobile_menu-lang js_change-lang" data-lang="uk">UA</a>
                 <a href="javascript:;" class="header-mobile_menu-lang js_change-lang" data-lang="en">EN</a>
@@ -137,16 +137,16 @@
             </div>
         </div>
         <div class="header-mobile_product js_header-modal" id="modalMenuProduct">
-            <div class="header-mobile_product-close js_close-product">Продукты</div>
+            <div class="header-mobile_product-close js_close-product">@lang('header.title')</div>
             <div class="header-mobile_product-inner">
-                <a href="/karaoke-system/" class="header-mobile_product-title">Караоке-системы</a>
+                <a href="/karaoke-system/" class="header-mobile_product-title">@lang('header.tab1')</a>
                 <a href="/evobox-premium/" class="header-mobile_product-link">
                     <div class="header-mobile_product-img">
                         <img src="/images/menu/evobox-premium.jpg" alt="" width="100%" height="100%">
                     </div>
                     <div>
                         EVOBOX Premium<br>
-                        <span>для дома</span>
+                        <span>@lang('header.subtab1')</span>
                     </div>
                 </a>
                 <a href="/karaoke-system/evobox/" class="header-mobile_product-link">
@@ -155,7 +155,7 @@
                     </div>
                     <div>
                         EVOBOX<br>
-                        <span>для дома</span>
+                        <span>@lang('header.subtab1')</span>
                     </div>
                 </a>
                 <!--                            <a href="/karaoke-system/evobox/" class="header-mobile_product-link">-->
@@ -173,7 +173,7 @@
                     </div>
                     <div>
                         Evolution Pro2<br>
-                        <span>для караоке-клуба</span>
+                        <span>@lang('header.subtab2')</span>
                     </div>
                 </a>
                 <a href="https://trade-in.studio-evolution.com/" class="header-mobile_product-link">
@@ -182,19 +182,19 @@
                     </div>
                     <div>
                         Trade-In<br>
-                        <span>программа обмена</span>
+                        <span>@lang('header.subtab3')</span>
                     </div>
                 </a>
             </div>
             <div class="header-mobile_product-inner">
-                <a href="/karaoke-equipment-systems/" class="header-mobile_product-title">Караоке-оборудование</a>
+                <a href="/karaoke-equipment-systems/" class="header-mobile_product-title">@lang('header.tab2')</a>
                 <a href="/microphones-se-200d/" class="header-mobile_product-link">
                     <div class="header-mobile_product-img">
                         <img src="/images/menu/mic.jpg" alt="" width="100%" height="100%">
                     </div>
                     <div>
-                        Микрофоны SE•200D<br>
-                        <span>цифровые микрофоны</span>
+                        @lang('header.subtab4_1') SE•200D<br>
+                        <span>@lang('header.subtab4_2')</span>
                     </div>
                 </a>
                 <a href="/evosound-bar/" class="header-mobile_product-link">
@@ -203,7 +203,7 @@
                     </div>
                     <div>
                         EvoSound Bar<br>
-                        <span>караоке саундбар</span>
+                        <span>@lang('header.subtab5')</span>
                     </div>
                 </a>
                 <a href="/evosound-sphere/" class="header-mobile_product-link">
@@ -212,7 +212,7 @@
                     </div>
                     <div>
                         EvoSound Sphere<br>
-                        <span>стереосистема</span>
+                        <span>@lang('header.subtab6')</span>
                     </div>
                 </a>
                 <a href="/evocase/" class="header-mobile_product-link">
@@ -221,40 +221,40 @@
                     </div>
                     <div>
                         EvoСase<br>
-                        <span>для транспортировки</span>
+                        <span>@lang('header.subtab7')</span>
                     </div>
                 </a>
             </div>
             <div class="header-mobile_product-inner">
-                <a href="/komplekty-dlya-karaoke/" class="header-mobile_product-title">Караоке-комплекты</a>
+                <a href="/komplekty-dlya-karaoke/" class="header-mobile_product-title">@lang('header.tab3')</a>
                 <a href="/karaoke-komplekty-s-mikrofonami/" class="header-mobile_product-link">
                     <div class="header-mobile_product-img">
                         <img src="/images/menu/complect-1.jpg" alt="" width="100%" height="100%">
                     </div>
-                    <div>Караоке + микрофоны</div>
+                    <div>@lang('header.karaoke_komplekty1')</div>
                 </a>
                 <a href="/karaoke-komplekty-s-saundbarom/" class="header-mobile_product-link">
                     <div class="header-mobile_product-img">
                         <img src="/images/menu/complect-2.jpg" alt="" width="100%" height="100%">
                     </div>
-                    <div>Караоке + микрофоны + саундбар</div>
+                    <div>@lang('header.karaoke_komplekty2')</div>
                 </a>
                 <a href="/karaoke-komplekt-so-stereosistemoj/" class="header-mobile_product-link">
                     <div class="header-mobile_product-img">
                         <img src="/images/menu/complect-3.jpg" alt="" width="100%" height="100%">
                     </div>
-                    <div>Караоке + микрофоны + стереосистема</div>
+                    <div>@lang('header.karaoke_komplekty3')</div>
                 </a>
             </div>
         </div>
         <div class="header-mobile_callback js_header-modal" id="modalCall">
             <div class="header-mobile_callback-row">
                 <a class="header-mobile_callback-phone" href="tel:0443793151" target="_blank">0 (44) 379-31-51</a>
-                <span>Отдел продаж<br>Пн. – пт.: 9:00 – 18:00</span>
+                <span>@lang('header.call_phone1') 9:00 – 18:00</span>
             </div>
             <div class="header-mobile_callback-row">
                 <a class="header-mobile_callback-phone" href="tel:0800212354" target="_blank">0 (800) 212-354</a>
-                <span>Техническая поддержка<br>Пн. – пт.: 9:00 – 18:00</span>
+                <span>@lang('header.call_phone2') 9:00 – 18:00</span>
             </div>
         </div>
     </div>

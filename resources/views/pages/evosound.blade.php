@@ -43,7 +43,7 @@
             <img src="/images/evosound/sphere-white.jpg" class="evosound_img js_tab-content" id="sphereWhite" alt="evosound sphere @lang('lang.general.white')">
         </a>
         <h2 class="evosound_name">EvoSound Sphere 2.1</h2>
-        <p class="evosound_subtitle">True Stereo @lang('evosound.subtitle')</p>
+        <p class="evosound_subtitle">True Stereo @lang('lang.general.subtitle_karaoke')</p>
         <div class="flex_ai-c_jc-c">
             <a href="javascript:;" class="evosound_btn evosound_btn-black js_show-tab active" data-tab="sphereBlack">@lang('lang.general.black')</a>
             <a href="javascript:;" class="evosound_btn evosound_btn-white js_show-tab" data-tab="sphereWhite">@lang('lang.general.white')</a>

@@ -143,7 +143,7 @@
             <div class="base_row bar_col-reverse">
                 <div>
                     <dl>
-                        <dt class="bar-specification_title">@lang('bar.wall_title') <br>EvoSound Bar</dt>
+                        <dt class="bar-specification_title">@lang('bar.specification_title') <br>EvoSound Bar</dt>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt1')</dd>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt2')</dd>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt3')</dd>
@@ -151,22 +151,22 @@
                         <dd class="bar-specification_txt">@lang('bar.specification_txt5')</dd>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt6')</dd>
                     </dl>
-                    <a href="" class="bar-specification_link" target="_blank">@lang('bar.specification_link')</a>
+                    <a href="" class="bar-specification_link" target="_blank">@lang('lang.general.more_information_link')</a>
                 </div>
                 <div class="bar-specification_parametrs">
                     <div>
-                        <p class="bar-specification_details">@lang('bar.specification_details1')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_height')</b> 107 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_length')</b> 1210 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_width')</b> 126 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_weight')</b> 8,6 @lang('lang.general.weight')</p>
+                        <p class="bar-specification_details">@lang('lang.general.details1')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.height')</b> 107 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.length')</b> 1210 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.width')</b> 126 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.heft')</b> 8,6 @lang('lang.general.weight')</p>
                     </div>
                     <div>
-                        <p class="bar-specification_details">@lang('bar.specification_details2')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_height')</b> 270 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_length')</b> 385 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_width')</b> 249 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_weight')</b> 7,7 @lang('lang.general.weight')</p>
+                        <p class="bar-specification_details">@lang('lang.general.details2')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.height')</b> 270 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.length')</b> 385 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.width')</b> 249 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.heft')</b> 7,7 @lang('lang.general.weight')</p>
                     </div>
                 </div>
             </div>
