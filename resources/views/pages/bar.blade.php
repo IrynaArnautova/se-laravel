@@ -12,7 +12,7 @@
 
 @section('content')
     <main class="bar-main">
-        <img src="/images/evosound/main.jpg" class="bar-main_img" alt="@lang('bar.main_img')">
+        <img src="/images/evosound/main.jpg" class="bar-main_img" alt="@lang('bar.alt_main_img')">
         <div class="base_container base_row bar-main_detail">
             <div>
                 <h1 class="bar-main_title">EvoSound Bar</h1>
@@ -35,34 +35,34 @@
                 </div>
                 <div class="bar-main_system active" id="barBlack">
                     <div class="bar-main_tab">
-                        <img src="/images/evosound/slider-black-1.jpg" class="bar-main_tab-img barTab-1 active" id="" alt="@lang('bar.main_tab_img_black1')">
-                        <img src="/images/evosound/slider-black-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.main_tab_img_black2')">
-                        <img src="/images/evosound/slider-black-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.main_tab_img_black3')">
-                        <img src="/images/evosound/slider-black-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.main_tab_img_black4')">
-                        <img src="/images/evosound/slider-black-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.main_tab_img_black5')">
+                        <img src="/images/evosound/slider-black-1.jpg" class="bar-main_tab-img barTab-1 active" id="" alt="@lang('bar.alt_main_tab_img_black1')">
+                        <img src="/images/evosound/slider-black-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.alt_main_tab_img_black2')">
+                        <img src="/images/evosound/slider-black-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.alt_main_tab_img_black3')">
+                        <img src="/images/evosound/slider-black-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.alt_main_tab_img_black4')">
+                        <img src="/images/evosound/slider-black-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.alt_main_tab_img_black5')">
                     </div>
                     <div class="bar-main_tab-content">
-                        <img src="/images/evosound/slider-black-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.main_tab_img_black1')">
-                        <img src="/images/evosound/slider-black-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.main_tab_img_black2')">
-                        <img src="/images/evosound/slider-black-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.main_tab_img_black3')">
-                        <img src="/images/evosound/slider-black-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.main_tab_img_black4')">
-                        <img src="/images/evosound/slider-black-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.main_tab_img_black5')">
+                        <img src="/images/evosound/slider-black-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.alt_main_tab_img_black1')">
+                        <img src="/images/evosound/slider-black-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.alt_main_tab_img_black2')">
+                        <img src="/images/evosound/slider-black-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.alt_main_tab_img_black3')">
+                        <img src="/images/evosound/slider-black-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.alt_main_tab_img_black4')">
+                        <img src="/images/evosound/slider-black-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.alt_main_tab_img_black5')">
                     </div>
                 </div>
                 <div class="bar-main_system" id="barWhite">
                     <div class="bar-main_tab">
-                        <img src="/images/evosound/slider-white-1.jpg" class="bar-main_tab-img barTab-1 active" alt="@lang('bar.main_tab_img_white1')">
-                        <img src="/images/evosound/slider-white-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.main_tab_img_white2')">
-                        <img src="/images/evosound/slider-white-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.main_tab_img_white3')">
-                        <img src="/images/evosound/slider-white-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.main_tab_img_white4')">
-                        <img src="/images/evosound/slider-white-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.main_tab_img_white5')">
+                        <img src="/images/evosound/slider-white-1.jpg" class="bar-main_tab-img barTab-1 active" alt="@lang('bar.alt_main_tab_img_white1')">
+                        <img src="/images/evosound/slider-white-2.jpg" class="bar-main_tab-img barTab-2" alt="@lang('bar.alt_main_tab_img_white2')">
+                        <img src="/images/evosound/slider-white-3.jpg" class="bar-main_tab-img barTab-3" alt="@lang('bar.alt_main_tab_img_white3')">
+                        <img src="/images/evosound/slider-white-4.jpg" class="bar-main_tab-img barTab-4" alt="@lang('bar.alt_main_tab_img_white4')">
+                        <img src="/images/evosound/slider-white-5.jpg" class="bar-main_tab-img barTab-5" alt="@lang('bar.alt_main_tab_img_white5')">
                     </div>
                     <div class="bar-main_tab-content">
-                        <img src="/images/evosound/slider-white-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.main_tab_img_white1')">
-                        <img src="/images/evosound/slider-white-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.main_tab_img_white2')">
-                        <img src="/images/evosound/slider-white-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.main_tab_img_white3')">
-                        <img src="/images/evosound/slider-white-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.main_tab_img_white4')">
-                        <img src="/images/evosound/slider-white-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.main_tab_img_white5')">
+                        <img src="/images/evosound/slider-white-sm-1.jpg" class="bar-main_tab-preview barTab-1 active" data-tab="barTab-1" alt="@lang('bar.alt_main_tab_img_white1')">
+                        <img src="/images/evosound/slider-white-sm-2.jpg" class="bar-main_tab-preview barTab-2" data-tab="barTab-2" alt="@lang('bar.alt_main_tab_img_white2')">
+                        <img src="/images/evosound/slider-white-sm-3.jpg" class="bar-main_tab-preview barTab-3" data-tab="barTab-3" alt="@lang('bar.alt_main_tab_img_white3')">
+                        <img src="/images/evosound/slider-white-sm-4.jpg" class="bar-main_tab-preview barTab-4" data-tab="barTab-4" alt="@lang('bar.alt_main_tab_img_white4')">
+                        <img src="/images/evosound/slider-white-sm-5.jpg" class="bar-main_tab-preview barTab-5" data-tab="barTab-5" alt="@lang('bar.alt_main_tab_img_white5')">
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
             <div class="base_row bar_col-reverse">
                 <div>
                     <dl>
-                        <dt class="bar-specification_title">@lang('bar.wall_title') <br>EvoSound Bar</dt>
+                        <dt class="bar-specification_title">@lang('bar.specification_title') <br>EvoSound Bar</dt>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt1')</dd>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt2')</dd>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt3')</dd>
@@ -151,22 +151,22 @@
                         <dd class="bar-specification_txt">@lang('bar.specification_txt5')</dd>
                         <dd class="bar-specification_txt">@lang('bar.specification_txt6')</dd>
                     </dl>
-                    <a href="" class="bar-specification_link" target="_blank">@lang('bar.specification_link')</a>
+                    <a href="" class="bar-specification_link" target="_blank">@lang('lang.general.more_information_link')</a>
                 </div>
                 <div class="bar-specification_parametrs">
                     <div>
-                        <p class="bar-specification_details">@lang('bar.specification_details1')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_height')</b> 107 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_length')</b> 1210 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_width')</b> 126 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_weight')</b> 8,6 @lang('lang.general.weight')</p>
+                        <p class="bar-specification_details">@lang('lang.general.details1')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.height')</b> 107 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.length')</b> 1210 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.width')</b> 126 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.heft')</b> 8,6 @lang('lang.general.weight')</p>
                     </div>
                     <div>
-                        <p class="bar-specification_details">@lang('bar.specification_details2')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_height')</b> 270 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_length')</b> 385 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_width')</b> 249 @lang('lang.general.size')</p>
-                        <p class="bar-specification_parametr"><b>@lang('bar.specification_weight')</b> 7,7 @lang('lang.general.weight')</p>
+                        <p class="bar-specification_details">@lang('lang.general.details2')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.height')</b> 270 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.length')</b> 385 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.width')</b> 249 @lang('lang.general.size')</p>
+                        <p class="bar-specification_parametr"><b>@lang('lang.general.heft')</b> 7,7 @lang('lang.general.weight')</p>
                     </div>
                 </div>
             </div>
