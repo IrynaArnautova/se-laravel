@@ -23,6 +23,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('/evosound-bar', [PageController::class, 'bar'])->name('bar');
     Route::get('/evosound-bar/specification-and-grades-evosound-bar', [PageController::class, 'bar_specification'])->name('bar_specification');
     Route::get('/evosound-sphere', [PageController::class, 'sphere'])->name('sphere');
+    Route::get('/komplekty-dlya-karaoke', [PageController::class, 'karaoke_sets'])->name('karaoke_sets');
 });
 
 

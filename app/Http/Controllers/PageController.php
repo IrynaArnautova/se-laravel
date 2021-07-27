@@ -25,6 +25,9 @@ class PageController extends Controller
     public function sphere() {
         return view('pages.sphere');
     }
+    public function karaoke_sets() {
+        return view('pages.karaoke-sets');
+    }
 
     public function sitemap()
     {

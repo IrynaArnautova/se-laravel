@@ -32,6 +32,11 @@ mix
     .js('resources/js/sphere.js', 'public/js/sphere.min.js')
     .postCss('resources/css/sphere.css', 'public/css/sphere.min.css')
 
+    // Караоке комплекты
+    .js('resources/js/karaoke-sets.js', 'public/js/karaoke-sets.min.js')
+    .postCss('resources/css/karaoke-sets.css', 'public/css/karaoke-sets.min.css')
+
+
 
     .options({
         processCssUrls: false,
