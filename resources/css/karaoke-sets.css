@@ -1,10 +1,4 @@
 /*common style start*/
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
 
 a {
     text-decoration: none;
@@ -14,7 +8,8 @@ a {
     outline: 0;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 .flex_jc-sb {
@@ -28,10 +23,10 @@ ol, ul {
 .base_button,
 .main .btn {
     display: inline-block;
-    background: #00AFED;
-    border: 2px solid #00AFED;
+    background: #00afed;
+    border: 2px solid #00afed;
     border-radius: 4px;
-    font: 700 24px/53px 'PT Sans', sans-serif;
+    font: 700 24px/53px "PT Sans", sans-serif;
     color: #fff;
     width: 208px;
     height: 60px;
@@ -41,10 +36,10 @@ ol, ul {
 .credit_transparent {
     display: inline;
 }
-.credit_transparent .btn{
+.credit_transparent .btn {
     background: transparent;
-    border: 2px solid #00AFED;
-    color: #00AFED;
+    border: 2px solid #00afed;
+    color: #00afed;
 }
 .base_button:hover,
 .main .btn:hover {
@@ -53,11 +48,10 @@ ol, ul {
 }
 .credit_transparent .btn:hover {
     background: transparent;
-    border: 2px solid #00AFED;
-    color: #00AFED;
+    border: 2px solid #00afed;
+    color: #00afed;
     opacity: 0.7;
 }
-
 
 .main {
     max-width: 1140px;
@@ -72,24 +66,24 @@ ol, ul {
     margin: 30px auto 58px;
 }
 .main_subtitle {
-    font: 700 26px/44px 'Open Sans', sans-serif;
+    font: 700 26px/44px "Open Sans", sans-serif;
     color: #686868;
     margin: 100px 0 0;
 }
 .main_title {
-    font: 700 68px/72px 'Open Sans', sans-serif;
+    font: 700 68px/72px "Open Sans", sans-serif;
     color: #000000;
     margin: 4px auto 0;
 }
 .main_description {
     max-width: 868px;
-    font: 400 24px/32px 'Open Sans', sans-serif;
+    font: 400 24px/32px "Open Sans", sans-serif;
     color: #000000;
     margin: 25px auto 0;
 }
 .main_price {
     margin: 28px auto 18px;
-    font: 700 42px/50px 'Open Sans', sans-serif;
+    font: 700 42px/50px "Open Sans", sans-serif;
     color: #000000;
 }
 .main_price-sale {
@@ -100,7 +94,6 @@ ol, ul {
     font-weight: 600;
     margin: -10px 0 20px;
 }
-
 
 .sets_slider {
     position: relative;
@@ -115,9 +108,9 @@ ol, ul {
 }
 
 .sets_slider-title {
-    font: 700 68px/72px 'Open Sans', sans-serif;
+    font: 700 68px/72px "Open Sans", sans-serif;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228256);
     position: absolute;
     top: 50%;
@@ -131,7 +124,6 @@ ol, ul {
     width: 321px;
     cursor: pointer;
 }
-
 
 .sets_video {
     max-width: 1172px;
@@ -149,7 +141,7 @@ ol, ul {
     width: 100%;
 }
 .sets_video-link:after {
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     position: absolute;
@@ -158,23 +150,23 @@ ol, ul {
     background: rgba(0, 0, 0, 0.445613);
     transition: all 0.2s linear;
 }
-.sets_video-link:hover:after{
+.sets_video-link:hover:after {
     background: rgba(0, 0, 0, 0.8);
 }
 .sets_video-title {
     position: absolute;
     top: 80px;
     left: 104px;
-    font: 700 40px/46px 'Open Sans', sans-serif;
-    color: #FFFFFF;
+    font: 700 40px/46px "Open Sans", sans-serif;
+    color: #ffffff;
     z-index: 1;
     width: 445px;
 }
 .sets_video-watch {
-    font: 700 16px/21px 'Open Sans', sans-serif;
+    font: 700 16px/21px "Open Sans", sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #27B2ED;
+    color: #27b2ed;
     position: relative;
     padding: 0 45px 0 0;
     position: absolute;
@@ -182,24 +174,24 @@ ol, ul {
     left: 94px;
     z-index: 1;
 }
-.sets_video-link:hover .sets_video-watch{
+.sets_video-link:hover .sets_video-watch {
     text-decoration: underline;
 }
 .sets_video-watch:after {
-    content: '';
+    content: "";
     width: 32px;
     height: 32px;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    background: url('https://studio-evolution.ua/wp-content/themes/html5blank-master/images/karaoke-set/ic-play.png') no-repeat center;
+    background: url("https://studio-evolution.ua/wp-content/themes/html5blank-master/images/karaoke-set/ic-play.png")
+        no-repeat center;
     background-size: cover;
 }
 .sets_video-link:hover .sets_video-watch:after {
     transform: translateY(-50%) scale(1.1);
 }
-
 
 .sets_include {
     max-width: 1220px;
@@ -208,13 +200,13 @@ ol, ul {
 }
 .sets_include-title {
     margin: 174px auto 82px;
-    font: 700 52px/60px 'Open Sans', sans-serif;
+    font: 700 52px/60px "Open Sans", sans-serif;
     color: #000000;
     text-align: center;
 }
 .sets_include-tabs {
     display: none;
-    background: #F2F2F2;
+    background: #f2f2f2;
     border-radius: 20px;
     max-width: 200px;
     margin: 24px auto 0;
@@ -222,29 +214,27 @@ ol, ul {
     justify-content: space-between;
 }
 .sets_include-tab {
-    font: 600 14px/38px 'Open Sans', sans-serif;
+    font: 600 14px/38px "Open Sans", sans-serif;
     text-align: center;
     color: #000000;
     height: 38px;
     padding: 0 18px;
 }
 .sets_include-tab.active {
-    color: #FFFFFF;
-    background: #00AFED;
+    color: #ffffff;
+    background: #00afed;
     border-radius: 20px;
 }
 .sets_include-content-hr {
-    border-top: 1px solid #D6D6D6;
+    border-top: 1px solid #d6d6d6;
     margin: 12px auto 20px;
 }
-
-
 
 .sets_include-tab-content {
     margin: 0 0 74px;
 }
 .sets_include-content-title {
-    font: 700 28px/34px 'Open Sans', sans-serif;
+    font: 700 28px/34px "Open Sans", sans-serif;
     color: #000000;
 }
 .sets_include-number {
@@ -252,8 +242,8 @@ ol, ul {
     width: 74px;
     height: 74px;
     border-radius: 50%;
-    background: #F5F5F5;
-    font: 700 52px/34px 'Open Sans', sans-serif;
+    background: #f5f5f5;
+    font: 700 52px/34px "Open Sans", sans-serif;
     text-align: center;
     padding: 19px 0;
 }
@@ -263,7 +253,7 @@ ol, ul {
     margin: 0 0 0 20px;
 }
 .sets_include-list {
-    font: 400 20px/32px 'Open Sans', sans-serif;
+    font: 400 20px/32px "Open Sans", sans-serif;
     color: #000000;
     max-width: 555px;
 }
@@ -278,9 +268,9 @@ ol, ul {
 .sets_include-link {
     display: inline-block;
     margin: 20px 0 0;
-    font: 600 20px/32px 'Open Sans', sans-serif;
+    font: 600 20px/32px "Open Sans", sans-serif;
     text-decoration-line: underline;
-    color: #00AFED;
+    color: #00afed;
 }
 .sets_include-link:hover {
     text-decoration-line: none;
@@ -288,7 +278,6 @@ ol, ul {
 .sets_include-evosound {
     max-width: 560px;
 }
-
 
 .sets_benefits {
     max-width: 930px;
@@ -298,7 +287,7 @@ ol, ul {
 .sets_benefits-title {
     max-width: 678px;
     margin: 0 auto 60px;
-    font: 700 52px/60px 'Open Sans', sans-serif;
+    font: 700 52px/60px "Open Sans", sans-serif;
     color: #000000;
     text-align: center;
 }
@@ -316,16 +305,15 @@ ol, ul {
     width: 53px;
 }
 .sets_benefits-subtitle {
-    font: 700 20px/32px 'Open Sans', sans-serif;
+    font: 700 20px/32px "Open Sans", sans-serif;
     margin: 11px 0 4px;
     color: #000000;
 }
 .sets_benefits-description {
-    font: 400 16px/24px 'Open Sans', sans-serif;
+    font: 400 16px/24px "Open Sans", sans-serif;
     color: #000000;
     opacity: 0.8;
 }
-
 
 .sets_cart {
     padding: 0 16px;
@@ -338,7 +326,7 @@ ol, ul {
     border-radius: 12px;
 }
 .sets_evoplay {
-    background: linear-gradient(90deg, #72D3FA 0%, #2CB5EC 100%), #F5F5F5;
+    background: linear-gradient(90deg, #72d3fa 0%, #2cb5ec 100%), #f5f5f5;
 }
 .sets_cart-inner {
     justify-content: space-between;
@@ -351,26 +339,26 @@ ol, ul {
     max-width: 393px;
 }
 .sets_cart-txt {
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.7;
-    font: 700 20px/26px 'Open Sans', sans-serif;
+    font: 700 20px/26px "Open Sans", sans-serif;
 }
 .sets_cart-title {
-    color: #FFFFFF;
-    font: 700 40px/48px 'Open Sans', sans-serif;
+    color: #ffffff;
+    font: 700 40px/48px "Open Sans", sans-serif;
     margin: 8px 0 36px;
 }
 .sets_cart-price {
-    color: #FFFFFF;
-    font: 700 42px/50px 'Open Sans', sans-serif;
+    color: #ffffff;
+    font: 700 42px/50px "Open Sans", sans-serif;
 }
 .sets_cart-btn,
 .sets_cart .btn {
     display: inline-block;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 4px;
-    font: 700 24px/53px 'PT Sans', sans-serif;
-    color: #00AFED;
+    font: 700 24px/53px "PT Sans", sans-serif;
+    color: #00afed;
     height: 60px;
     margin: 18px 7px 0;
     border: 0;
@@ -380,7 +368,7 @@ ol, ul {
 }
 .sets_cart-btn:hover,
 .sets_cart .btn:hover {
-    color: #00AFED;
+    color: #00afed;
     opacity: 0.7;
 }
 .sets_cart .credit_transparent .btn {
@@ -395,7 +383,7 @@ ol, ul {
     opacity: 0.7;
 }
 .sets_cart-banner {
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 0px 0px 12px 12px;
     padding: 27px 60px;
     margin: 0 0 168px;
@@ -406,14 +394,14 @@ ol, ul {
 }
 .sets_cart-banner-title {
     color: #000000;
-    font: 700 28px/34px 'Open Sans', sans-serif;
+    font: 700 28px/34px "Open Sans", sans-serif;
     margin: 0 0 20px;
 }
 .sets_cart-banner-link {
     display: inline-block;
-    font: 600 20px/32px 'Open Sans', sans-serif;
+    font: 600 20px/32px "Open Sans", sans-serif;
     text-decoration-line: underline;
-    color: #00AFED;
+    color: #00afed;
 }
 .sets_cart-banner-link:hover {
     text-decoration-line: none;
@@ -432,7 +420,7 @@ ol, ul {
     width: 244px;
 }
 
-@media(max-width: 1940px) {
+@media (max-width: 1940px) {
     .sets_slider {
         height: auto;
     }
@@ -442,7 +430,7 @@ ol, ul {
     }
 }
 
-@media(max-width: 1150px) {
+@media (max-width: 1150px) {
     .sets_cart-inner {
         padding: 24px 40px;
     }
@@ -450,16 +438,17 @@ ol, ul {
         max-width: 430px;
     }
 }
-@media(max-width: 900px) {
+@media (max-width: 900px) {
     .sets_slider:after {
-        content: '';
+        content: "";
         position: absolute;
         right: 5px;
         top: 5px;
         width: 32px;
         height: 32px;
         z-index: 100;
-        background: url(/wp-content/themes/html5blank-master/images/swipe.png) 50% 50% no-repeat;
+        background: url(/wp-content/themes/html5blank-master/images/swipe.png)
+            50% 50% no-repeat;
     }
     .sets_include-tabs {
         display: flex;
@@ -517,7 +506,7 @@ ol, ul {
     }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     .main {
         padding: 0 16px;
     }
@@ -622,7 +611,7 @@ ol, ul {
         flex-direction: column;
         padding: 0 0 58px;
     }
-    .sets_cart-item{
+    .sets_cart-item {
         max-width: unset;
         width: 100%;
         padding: 0 26px;
@@ -654,21 +643,23 @@ ol, ul {
         font-size: 16px;
         line-height: 24px;
     }
-    .sets_cart-btn, .sets_cart .btn {
+    .sets_cart-btn,
+    .sets_cart .btn {
         padding: 4px 0;
         width: 100%;
         text-align: center;
     }
 }
 
-@media(max-width: 374px) {
+@media (max-width: 374px) {
     .sets_slider .item {
         width: 310px;
     }
 }
 
 .delivery-bg {
-    background: url('/wp-content/uploads/2019/08/bg_delivery_KS_desktop.jpg?id=24375') no-repeat center bottom;
+    background: url("/wp-content/uploads/2019/08/bg_delivery_KS_desktop.jpg?id=24375")
+        no-repeat center bottom;
     height: 350px;
     text-align: center;
     margin: -80px 0 0px;
@@ -700,7 +691,7 @@ ol, ul {
         margin: 166px 0 0;
     }
 }
-@media(max-width: 990px) {
+@media (max-width: 990px) {
     .sets_include-tabs {
         max-width: 320px;
     }

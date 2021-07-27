@@ -12,8 +12,8 @@
 
 @section('content')
     <div class="sets_page">
-        <section class="sets base_container">
-            <h1 class="base_title"><?php _e('Караоке-комплекты','my'); ?> <br><?php _e('с микрофонами','my'); ?></h1>
+        <main class="sets base_container">
+            <h1 class="base_title">Караоке-комплекты <br>с микрофонами</h1>
             <div class="base_tab">
                 <img src="/wp-content/themes/html5blank-master/images/karaoke-set/with-mic.jpg" class="base_img"  alt="микрофон для караоке купить">
                 <img src="/wp-content/themes/html5blank-master/images/karaoke-set/with-mic-mob.jpg" class="base_img-mob"  alt="микрофон купить для караоке">
@@ -34,79 +34,47 @@
             </div>
             <div class="sets_inner">
                 <div class="sets_col">
-                    <div class="base_subtitle">EVOBOX<br> <?php _e('с микрофонами','my'); ?></div>
-                    <a href="<?php echo $pre_lang;?>karaoke-komplekty-s-mikrofonami/" class="base_link"><?php _e('Узнать больше','my'); ?></a>
-                    <div class="base_txt"><?php _e('Караоке-система и 2 цифровых беспроводных микрофона SE • 200D.','my'); ?></div>
+                    <h3 class="base_subtitle">EVOBOX<br> с микрофонами</h3>
+                    <a href="karaoke-komplekty-s-mikrofonami/" class="base_link">Узнать больше</a>
+                    <p class="base_txt">Караоке-система и 2 цифровых беспроводных микрофона SE • 200D.</p>
                     <br>
-                    <div class="base_txt"><?php _e('2 000 песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.','my'); ?></div>
-                    <div class="base_price">
-                        <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="52" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                        <div class="base_price-profit"><?php _e('выгода','my'); ?> <?php echo do_shortcode( '[countryPrice id="52" project_id="6" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_txt">2 000 песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                    <div class="base_price-box">
+                        <p class="base_price-old">111</p>
+                        <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                     </div>
-                    <div class="base_price-current"><?php echo do_shortcode( '[countryPrice id="52" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_btns">
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Купить" el_class="base_btn base_btn-dark" form_id="129"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Buy" el_class="base_btn base_btn-dark" form_id="149"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Купити" el_class="base_btn base_btn-dark" form_id="139"]' );
-                        }
-                        ?>
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="base_btn base_btn-light" form_id="180"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Credit 0%" el_class="base_btn base_btn-light" form_id="179"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="base_btn base_btn-light" form_id="181"]' );
-                        }
-                        ?>
+                    <p class="base_price-current">222</p>
+                    <div class="base_double ta-c">
+                        <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                        <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                     </div>
                 </div>
                 <div class="sets_col">
-                    <div class="base_subtitle">EVOBOX Plus <br> <?php _e('с микрофонами','my'); ?></div>
-                    <a href="<?php echo $pre_lang;?>karaoke-komplekty-s-mikrofonami/" class="base_link"><?php _e('Узнать больше','my'); ?></a>
-                    <div class="base_txt"><?php _e('Караоке-система и 2 цифровых беспроводных микрофона SE • 200D.','my'); ?></div>
+                    <h3 class="base_subtitle">EVOBOX Plus <br> с микрофонами</h3>
+                    <a href="karaoke-komplekty-s-mikrofonami/" class="base_link">Узнать больше</a>
+                    <p class="base_txt">Караоке-система и 2 цифровых беспроводных микрофона SE • 200D.</p>
                     <br>
-                    <div class="base_txt"><?php _e('41 000+ песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.','my'); ?></div>
-                    <div class="base_price">
-                        <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="53" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                        <div class="base_price-profit"><?php _e('выгода','my'); ?> <?php echo do_shortcode( '[countryPrice id="53" project_id="6" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_txt">41 000+ песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                    <div class="base_price-box">
+                        <p class="base_price-old">111</p>
+                        <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                     </div>
-                    <div class="base_price-current"><?php echo do_shortcode( '[countryPrice id="53" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_btns">
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Купить" el_class="base_btn base_btn-dark" form_id="169"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Buy" el_class="base_btn base_btn-dark" form_id="169"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Купити" el_class="base_btn base_btn-dark" form_id="169"]' );
-                        }
-                        ?>
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="base_btn base_btn-light" form_id="180"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Credit 0%" el_class="base_btn base_btn-light" form_id="179"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="base_btn base_btn-light" form_id="181"]' );
-                        }
-                        ?>
+                    <p class="base_price-current">222</p>
+                    <div class="base_double ta-c">
+                        <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                        <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </main>
 
-        <?php get_template_part( '/templates/evocase_gift' ); ?>
+        
 
         <section class="sets base_container">
-            <div class="base_title"><?php _e('Караоке-комплекты','my'); ?> <br><?php _e('с саундбаром','my'); ?></div>
+            <h2 class="base_title">Караоке-комплекты <br>с саундбаром</h2>
             <div class="evosound_row">
-                <div class="evosound_btn evosound_btn-black active" data-tab="bar-Black"><?php _e('Черный','my'); ?></div>
-                <div class="evosound_btn evosound_btn-white" data-tab="bar-White"><?php _e('Жемчужный','my'); ?></div>
+                <div class="evosound_btn evosound_btn-black active" data-tab="bar-Black">Черный</div>
+                <div class="evosound_btn evosound_btn-white" data-tab="bar-White">Жемчужный</div>
             </div>
             <div class="base_tab sets_sab">
                 <img src="/wp-content/themes/html5blank-master/images/karaoke-set/with-sab-black.jpg" class="base_img bar-Black active" alt="evosound bar черный">
@@ -131,77 +99,45 @@
             </div>
             <div class="sets_inner">
                 <div class="sets_col">
-                    <div class="base_subtitle">EVOBOX<br> <?php _e('с микрофонами','my'); ?><br><?php _e('и саундбаром','my'); ?></div>
-                    <a href="<?php echo $pre_lang;?>karaoke-komplekty-s-saundbarom/" class="base_link"><?php _e('Узнать больше','my'); ?></a>
-                    <div class="base_txt"><a href ='/'><?php _e('Караоке','my'); ?></a><?php _e('-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Bar.','my'); ?></div>
+                    <h3 class="base_subtitle">EVOBOX<br> с микрофонами<br>и саундбаром</h3>
+                    <a href="karaoke-komplekty-s-saundbarom/" class="base_link">Узнать больше</a>
+                    <p class="base_txt"><a href ='/'>Караоке</a>-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Bar.</p>
                     <br>
-                    <div class="base_txt"><?php _e('2 000 песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.','my'); ?></div>
-                    <div class="base_price">
-                        <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="56" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                        <div class="base_price-profit"><?php _e('выгода','my'); ?> <?php echo do_shortcode( '[countryPrice id="56" project_id="6" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_txt">2 000 песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                    <div class="base_price-box">
+                        <p class="base_price-old">111</p>
+                        <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                     </div>
-                    <div class="base_price-current"><?php echo do_shortcode( '[countryPrice id="56" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_btns">
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Купить" el_class="base_btn base_btn-dark" form_id="186"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Buy" el_class="base_btn base_btn-dark" form_id="186"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Купити" el_class="base_btn base_btn-dark" form_id="186"]' );
-                        }
-                        ?>
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="base_btn base_btn-light" form_id="180"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Credit 0%" el_class="base_btn base_btn-light" form_id="179"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="base_btn base_btn-light" form_id="181"]' );
-                        }
-                        ?>
+                    <p class="base_price-current">222</p>
+                    <div class="base_double ta-c">
+                        <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                        <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                     </div>
                 </div>
                 <div class="sets_col">
-                    <div class="base_subtitle">EVOBOX Plus <br><?php _e('с микрофонами','my'); ?> <br><?php _e('и саундбаром','my'); ?></div>
-                    <a href="<?php echo $pre_lang;?>karaoke-komplekty-s-saundbarom/" class="base_link"><?php _e('Узнать больше','my'); ?></a>
-                    <div class="base_txt"><?php _e('Караоке-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Bar.','my'); ?></div>
+                    <h3 class="base_subtitle">EVOBOX Plus <br>с микрофонами <br>и саундбаром</h3>
+                    <a href="karaoke-komplekty-s-saundbarom/" class="base_link">Узнать больше</a>
+                    <p class="base_txt">Караоке-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Bar.</p>
                     <br>
-                    <div class="base_txt"><?php _e('41 000+ песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.','my'); ?></div>
-                    <div class="base_price">
-                        <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="57" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                        <div class="base_price-profit"><?php _e('выгода','my'); ?> <?php echo do_shortcode( '[countryPrice id="57" project_id="6" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_txt">41 000+ песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                    <div class="base_price-box">
+                        <p class="base_price-old">111</p>
+                        <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                     </div>
-                    <div class="base_price-current"><?php echo do_shortcode( '[countryPrice id="57" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_btns">
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Купить" el_class="base_btn base_btn-dark" form_id="187"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Buy" el_class="base_btn base_btn-dark" form_id="187"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Купити" el_class="base_btn base_btn-dark" form_id="187"]' );
-                        }
-                        ?>
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="base_btn base_btn-light" form_id="180"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Credit 0%" el_class="base_btn base_btn-light" form_id="179"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="base_btn base_btn-light" form_id="181"]' );
-                        }
-                        ?>
+                    <p class="base_price-current">222</p>
+                    <div class="base_double ta-c">
+                        <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                        <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="sets base_container">
-            <div class="base_title"><?php _e('Караоке-комплекты','my'); ?> <br><?php _e('со стереосистемой','my'); ?></div>
+            <h2 class="base_title">Караоке-комплекты <br>со стереосистемой</h2>
             <div class="evosound_row">
-                <div class="evosound_btn evosound_btn-black active" data-tab="bar-Black-All"><?php _e('Черный','my'); ?></div>
-                <div class="evosound_btn evosound_btn-white" data-tab="bar-White-All"><?php _e('Жемчужный','my'); ?></div>
+                <div class="evosound_btn evosound_btn-black active" data-tab="bar-Black-All">Черный</div>
+                <div class="evosound_btn evosound_btn-white" data-tab="bar-White-All">Жемчужный</div>
             </div>
             <div class="base_tab sets_all">
                 <img src="/wp-content/themes/html5blank-master/images/karaoke-set/with-all-black.jpg" class="base_img bar-Black-All active" alt="аудиосистема evosound bar черный">
@@ -225,67 +161,35 @@
             </div>
             <div class="sets_inner">
                 <div class="sets_col">
-                    <div class="base_subtitle">EVOBOX<br> <?php _e('с микрофонами','my'); ?><br><?php _e('и стереосистемой','my'); ?></div>
-                    <a href="<?php echo $pre_lang;?>karaoke-komplekt-so-stereosistemoj/" class="base_link"><?php _e('Узнать больше','my'); ?></a>
-                    <div class="base_txt"><?php _e('Караоке-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Sphere.','my'); ?></div>
+                    <h3 class="base_subtitle">EVOBOX<br> с микрофонами<br>и стереосистемой</h3>
+                    <a href="karaoke-komplekt-so-stereosistemoj/" class="base_link">Узнать больше</a>
+                    <p class="base_txt">Караоке-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Sphere.</p>
                     <br>
-                    <div class="base_txt"><?php _e('2 000 песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.','my'); ?></div>
-                    <div class="base_price">
-                        <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="54" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                        <div class="base_price-profit"><?php _e('выгода','my'); ?> <?php echo do_shortcode( '[countryPrice id="54" project_id="6" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_txt">2 000 песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                    <div class="base_price-box">
+                        <p class="base_price-old">111</p>
+                        <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                     </div>
-                    <div class="base_price-current"><?php echo do_shortcode( '[countryPrice id="54" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_btns">
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Купить" el_class="base_btn base_btn-dark" form_id="188"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Buy" el_class="base_btn base_btn-dark" form_id="188"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Купити" el_class="base_btn base_btn-dark" form_id="188"]' );
-                        }
-                        ?>
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="base_btn base_btn-light" form_id="180"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Credit 0%" el_class="base_btn base_btn-light" form_id="179"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="base_btn base_btn-light" form_id="181"]' );
-                        }
-                        ?>
+                    <p class="base_price-current">222</p>
+                    <div class="base_double ta-c">
+                        <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                        <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                     </div>
                 </div>
                 <div class="sets_col">
-                    <div class="base_subtitle">EVOBOX Plus <br> <?php _e('с микрофонами','my'); ?><br><?php _e('и стереосистемой','my'); ?></div>
-                    <a href="<?php echo $pre_lang;?>karaoke-komplekt-so-stereosistemoj/" class="base_link"><?php _e('Узнать больше','my'); ?></a>
-                    <div class="base_txt"><?php _e('Караоке-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Sphere.','my'); ?></div>
+                    <h3 class="base_subtitle">EVOBOX Plus <br> с микрофонами<br>и стереосистемой</h3>
+                    <a href="karaoke-komplekt-so-stereosistemoj/" class="base_link">Узнать больше</a>
+                    <p class="base_txt">Караоке-система, 2 цифровых беспроводных микрофона и акустическая система для караоке EvoSound Sphere.</p>
                     <br>
-                    <div class="base_txt"><?php _e('41 000+ песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.','my'); ?></div>
-                    <div class="base_price">
-                        <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="55" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                        <div class="base_price-profit"><?php _e('выгода','my'); ?> <?php echo do_shortcode( '[countryPrice id="55" project_id="6" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_txt">41 000+ песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                    <div class="base_price-box">
+                        <p class="base_price-old">111</p>
+                        <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                     </div>
-                    <div class="base_price-current"><?php echo do_shortcode( '[countryPrice id="55" project_id="6"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_btns">
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Купить" el_class="base_btn base_btn-dark" form_id="189"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Buy" el_class="base_btn base_btn-dark" form_id="189"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Купити" el_class="base_btn base_btn-dark" form_id="189"]' );
-                        }
-                        ?>
-                        <?php
-                        if(ICL_LANGUAGE_CODE == 'ru'){
-                            echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="base_btn base_btn-light" form_id="180"]' );
-                        } elseif (ICL_LANGUAGE_CODE == 'en'){
-                            echo do_shortcode( '[vc_button title="Credit 0%" el_class="base_btn base_btn-light" form_id="179"]' );
-                        } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                            echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="base_btn base_btn-light" form_id="181"]' );
-                        }
-                        ?>
+                    <p class="base_price-current">222</p>
+                    <div class="base_double ta-c">
+                        <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                        <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                     </div>
                 </div>
             </div>
