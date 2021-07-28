@@ -12,7 +12,7 @@
 
 @section('content')
     <!-- <div class="sets_page"> -->
-        <main class="sets base_container js_parent-tab">
+        <main class="sets base_karaoke-container js_parent-tab">
             <h1 class="base_title">@lang('karaoke-sets.main_title')</h1>
             <div class="base_tab">
                 <img src="/images/karaoke-set/with-mic.jpg" class="base_img"  alt="@lang('karaoke-sets.alt_main_with_mic')">
@@ -49,7 +49,6 @@
                     <h3 class="base_subtitle">EVOBOX<br> @lang('karaoke-sets.main_subtitle')</h3>
                     <a href="karaoke-komplekty-s-mikrofonami/" class="base_link">@lang('karaoke-sets.base_link')</a>
                     <p class="base_txt">@lang('karaoke-sets.main_txt')</p>
-                    <br>
                     <p class="base_txt">2 000 @lang('karaoke-sets.base_txt')</p>
                     <div class="base_price-box">
                         <p class="base_price-old">111</p>
@@ -65,7 +64,6 @@
                     <h3 class="base_subtitle">EVOBOX Plus <br> @lang('karaoke-sets.main_subtitle')</h3>
                     <a href="karaoke-komplekty-s-mikrofonami/" class="base_link">@lang('karaoke-sets.base_link')</a>
                     <p class="base_txt">@lang('karaoke-sets.main_txt')</p>
-                    <br>
                     <p class="base_txt">41 000+ @lang('karaoke-sets.base_txt')</p>
                     <div class="base_price-box">
                         <p class="base_price-old">111</p>
@@ -84,16 +82,18 @@
 
         <section class="sets base_container js_parent-tab">
             <h2 class="base_title">@lang('karaoke-sets.soundbar_title')</h2>
-            <div class="evosound_row ">
+            <div class="evosound_row js_parent-tab">
                 <div class="evosound_btn evosound_btn-black js_show-tab active" data-tab="barBlack">@lang('lang.general.black')</div>
                 <div class="evosound_btn evosound_btn-white js_show-tab" data-tab="barWhite">@lang('lang.general.white')</div>
             </div>
             <div class="base_tab sets_sab ">
-                <img src="/images/karaoke-set/with-sab-black.jpg" class="base_img evosound_img js_tab-content active" id="barBlack" alt="evosound bar @lang('karaoke-sets.alt_main_evobox_black')">
-                <img src="/images/karaoke-set/with-sab-white.jpg" class="base_img evosound_img js_tab-content" id="barWhite" alt="evosound bar @lang('karaoke-sets.alt_main_evobox_white')">
-                <img src="/images/karaoke-set/with-sab-black-mob.jpg" class="base_img-mob js_tab-content bar-Black active" alt="@lang('lang.general.dark') evosound bar @lang('karaoke-sets.alt_main_evobox_black')">
-                <img src="/images/karaoke-set/with-sab-white-mob.jpg" class="base_img-mob js_tab-content bar-White" alt="@lang('lang.general.dark') evosound bar @lang('karaoke-sets.alt_main_evobox_white')">
-                <div class="">
+                <div class="js_parent-tab">
+                    <img src="/images/karaoke-set/with-sab-black.jpg" class="base_img evosound_img js_tab-content active" id="barBlack" alt="evosound bar @lang('karaoke-sets.alt_main_evobox_black')">
+                    <img src="/images/karaoke-set/with-sab-white.jpg" class="base_img evosound_img js_tab-content" id="barWhite" alt="evosound bar @lang('karaoke-sets.alt_main_evobox_white')">
+                    <img src="/images/karaoke-set/with-sab-black-mob.jpg" class="base_img-mob js_tab-content active" id="barWhite" alt="@lang('lang.general.dark') evosound bar @lang('karaoke-sets.alt_main_evobox_black')">
+                    <img src="/images/karaoke-set/with-sab-white-mob.jpg" class="base_img-mob js_tab-content" id="barWhite" alt="@lang('lang.general.dark') evosound bar @lang('karaoke-sets.alt_main_evobox_white')">
+                </div>
+                <div class="js_parent-tab">
                     <div class="base_tab-img js_tab-content active" id="sabGrey">
                         <img src="/images/karaoke-set/evobox-grey.png" alt="evobox evolution @lang('karaoke-sets.alt_main_evobox_grey')">
                     </div>
@@ -111,11 +111,10 @@
                     </div>
                     <div class="base_tab-img js_tab-content" id="sabBlack">
                         <img src="/images/karaoke-set/evobox-black.png" alt="evobox evolution @lang('karaoke-sets.alt_main_evobox_black')">
-                    </div>
-                 </div>
-                    
+                    </div> 
+                </div>
             </div>
-            <div class="base_tab-content">
+            <div class="base_tab-content js_parent-tab">
                 <img src="/images/karaoke-set/preview-grey.jpg" class="base_tab-preview js_show-tab active" data-tab="sabGrey" alt="@lang('lang.general.dark') evobox evolution @lang('karaoke-sets.alt_main_evobox_grey')">
                 <img src="/images/karaoke-set/preview-red.jpg" class="base_tab-preview js_show-tab" data-tab="sabRed" alt="@lang('lang.general.dark') evobox evolution @lang('karaoke-sets.alt_main_evobox_red')">
                 <img src="/images/karaoke-set/preview-blue.jpg" class="base_tab-preview js_show-tab" data-tab="sabBlue" alt="@lang('lang.general.dark') evobox evolution @lang('karaoke-sets.alt_main_evobox_blue')">
@@ -128,7 +127,6 @@
                     <h3 class="base_subtitle">EVOBOX<br> @lang('karaoke-sets.soundbar_subtitle')</h3>
                     <a href="karaoke-komplekty-s-saundbarom/" class="base_link">@lang('karaoke-sets.base_link')</a>
                     <p class="base_txt"><a href ='/'>@lang('karaoke-sets.soundbar_txt1')</a>@lang('karaoke-sets.soundbar_txt2') EvoSound Bar.</p>
-                    <br>
                     <p class="base_txt">2 000 @lang('karaoke-sets.base_txt')</p>
                     <div class="base_price-box">
                         <p class="base_price-old">111</p>
@@ -144,7 +142,6 @@
                     <h3 class="base_subtitle">EVOBOX Plus <br>@lang('karaoke-sets.soundbar_subtitle')</h3>
                     <a href="karaoke-komplekty-s-saundbarom/" class="base_link">@lang('karaoke-sets.base_link')</a>
                     <p class="base_txt">@lang('karaoke-sets.base_txt2') EvoSound Bar.</p>
-                    <br>
                     <p class="base_txt">41 000+ @lang('karaoke-sets.base_txt')</p>
                     <div class="base_price-box">
                         <p class="base_price-old">111</p>
@@ -159,38 +156,54 @@
             </div>
         </section>
 
-        <section class="sets base_container">
+        <section class="sets base_container js_parent-tab">
             <h2 class="base_title">@lang('karaoke-sets.stereosystem_title')</h2>
-            <div class="evosound_row">
-                <div class="evosound_btn evosound_btn-black active" data-tab="bar-Black-All">@lang('lang.general.black')</div>
-                <div class="evosound_btn evosound_btn-white" data-tab="bar-White-All">@lang('lang.general.white')</div>
+            <div class="evosound_row js_parent-tab">
+                <div class="evosound_btn evosound_btn-black js_show-tab active" data-tab="barBlackAll">@lang('lang.general.black')</div>
+                <div class="evosound_btn evosound_btn-white js_show-tab" data-tab="barWhiteAll">@lang('lang.general.white')</div>
             </div>
-            <div class="base_tab sets_all">
-                <img src="/images/karaoke-set/with-all-black.jpg" class="base_img evosound_img bar-Black-All active" alt=" @lang('karaoke-sets.alt_main_evobox_audio') evosound bar  @lang('karaoke-sets.alt_main_evobox_black')">
-                <img src="/images/karaoke-set/with-all-white.jpg" class="base_img evosound_img bar-White-All" alt=" @lang('karaoke-sets.alt_main_evobox_audio') evosound bar  @lang('karaoke-sets.alt_main_evobox_white')">
-                <img src="/images/karaoke-set/with-all-black-mob.jpg" class="base_img-mob bar-Black-All active" alt="evosound bar @lang('karaoke-sets.alt_main_evobox_black')">
-                <img src="/images/karaoke-set/with-all-white-mob.jpg" class="base_img-mob bar-White-All"  alt="evosound bar @lang('karaoke-sets.alt_main_evobox_white')">
-                <img src="/images/karaoke-set/evobox-mic-grey.png" class="base_tab-img active" id="allGrey" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_grey')">
-                <img src="/images/karaoke-set/evobox-mic-red.png" class="base_tab-img" id="allRed" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_red')">
-                <img src="/images/karaoke-set/evobox-mic-blue.png" class="base_tab-img" id="allBlue" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_blue')">
-                <img src="/images/karaoke-set/evobox-mic-gold.png" class="base_tab-img" id="allGold" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_gold')">
-                <img src="/images/karaoke-set/evobox-mic-silver.png" class="base_tab-img" id="allSilver" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_silver')">
-                <img src="/images/karaoke-set/evobox-mic-black.png" class="base_tab-img" id="allBlack" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_black')">
+            <div class="base_tab sets_all js_parent-tab">
+                <div class="js_parent-tab">
+                    <img src="/images/karaoke-set/with-all-black.jpg" class="base_img evosound_img js_tab-content active" id="barBlackAll" alt=" @lang('karaoke-sets.alt_main_evobox_audio') evosound bar  @lang('karaoke-sets.alt_main_evobox_black')">
+                    <img src="/images/karaoke-set/with-all-white.jpg" class="base_img evosound_img js_tab-content" id="barWhiteAll" alt=" @lang('karaoke-sets.alt_main_evobox_audio') evosound bar  @lang('karaoke-sets.alt_main_evobox_white')">
+                    <img src="/images/karaoke-set/with-all-black-mob.jpg" class="base_img-mob js_tab-content active" id="barBlackAll" alt="evosound bar @lang('karaoke-sets.alt_main_evobox_black')">
+                    <img src="/images/karaoke-set/with-all-white-mob.jpg" class="base_img-mob js_tab-content" id="barWhiteAll" alt="evosound bar @lang('karaoke-sets.alt_main_evobox_white')">
+                </div>
+                <div class="js_parent-tab">
+                    <div class="base_tab-img js_tab-content active" id="allGrey">
+                        <img src="/images/karaoke-set/evobox-mic-grey.png" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_grey')">
+                    </div>
+                    <div class="base_tab-img js_tab-content" id="allRed">
+                        <img src="/images/karaoke-set/evobox-mic-red.png" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_red')">
+                    </div>
+                    <div class="base_tab-img js_tab-content" id="allBlue">
+                        <img src="/images/karaoke-set/evobox-mic-blue.png" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_blue')">
+                    </div>
+                    <div class="base_tab-img js_tab-content" id="allGold">
+                        <img src="/images/karaoke-set/evobox-mic-gold.png" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_gold')">
+                    </div>
+                    <div class="base_tab-img js_tab-content" id="allSilver">
+                        <img src="/images/karaoke-set/evobox-mic-silver.png" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_silver')">
+                    </div>
+                    <div class="base_tab-img js_tab-content" id="allBlack">
+                        <img src="/images/karaoke-set/evobox-mic-black.png" alt="@lang('karaoke-sets.alt_main_evobox_karaoke') evobox @lang('karaoke-sets.alt_main_evobox_black')">
+                    </div>
+                </div>
+               
             </div>
-            <div class="base_tab-content">
-                <img src="/images/karaoke-set/preview-grey.jpg" class="base_tab-preview active" data-tab="allGrey" alt="">
-                <img src="/images/karaoke-set/preview-red.jpg" class="base_tab-preview" data-tab="allRed" alt="">
-                <img src="/images/karaoke-set/preview-blue.jpg" class="base_tab-preview" data-tab="allBlue" alt="">
-                <img src="/images/karaoke-set/preview-gold.jpg" class="base_tab-preview" data-tab="allGold" alt="">
-                <img src="/images/karaoke-set/preview-silver.jpg" class="base_tab-preview" data-tab="allSilver" alt="">
-                <img src="/images/karaoke-set/preview-black.jpg" class="base_tab-preview" data-tab="allBlack" alt="">
+            <div class="base_tab-content js_parent-tab">
+                <img src="/images/karaoke-set/preview-grey.jpg" class="base_tab-preview js_show-tab active" data-tab="allGrey" alt="">
+                <img src="/images/karaoke-set/preview-red.jpg" class="base_tab-preview js_show-tab" data-tab="allRed" alt="">
+                <img src="/images/karaoke-set/preview-blue.jpg" class="base_tab-preview js_show-tab" data-tab="allBlue" alt="">
+                <img src="/images/karaoke-set/preview-gold.jpg" class="base_tab-preview js_show-tab" data-tab="allGold" alt="">
+                <img src="/images/karaoke-set/preview-silver.jpg" class="base_tab-preview js_show-tab" data-tab="allSilver" alt="">
+                <img src="/images/karaoke-set/preview-black.jpg" class="base_tab-preview js_show-tab" data-tab="allBlack" alt="">
             </div>
             <div class="sets_inner">
                 <div class="sets_col">
                     <h3 class="base_subtitle">EVOBOX<br> @lang('karaoke-sets.stereosystem_subtitle')</h3>
                     <a href="karaoke-komplekt-so-stereosistemoj/" class="base_link">@lang('karaoke-sets.base_link')</a>
                     <p class="base_txt">@lang('karaoke-sets.base_txt2') EvoSound Sphere.</p>
-                    <br>
                     <p class="base_txt">2 000 @lang('karaoke-sets.base_txt')</p>
                     <div class="base_price-box">
                         <p class="base_price-old">111</p>
@@ -206,7 +219,6 @@
                     <h3 class="base_subtitle">EVOBOX Plus <br> @lang('karaoke-sets.stereosystem_subtitle')</h3>
                     <a href="karaoke-komplekt-so-stereosistemoj/" class="base_link">@lang('karaoke-sets.base_link')</a>
                     <p class="base_txt">@lang('karaoke-sets.base_txt2') EvoSound Sphere.</p>
-                    <br>
                     <p class="base_txt">41 000+ @lang('karaoke-sets.base_txt')</p>
                     <div class="base_price-box">
                         <p class="base_price-old">111</p>

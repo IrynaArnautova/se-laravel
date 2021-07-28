@@ -5,8 +5,8 @@ export function partChangeByClick() {
         item.addEventListener('click', e => {
             const parentItem = e.target.closest('.js_parent-tab');
             console.log(parentItem)
-            const tabContents = parentItem.querySelectorAll('.js_tab-content');
             const tab = item.getAttribute('data-tab');
+            const tabContents = document.querySelector('#' + tab).closest('.js_parent-tab').querySelectorAll('.js_tab-content');
             parentItem.querySelectorAll('.js_show-tab').forEach(item => {
                 item.classList.remove('active');
             })
