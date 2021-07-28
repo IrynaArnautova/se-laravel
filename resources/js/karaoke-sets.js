@@ -1,25 +1,3 @@
-// jQuery(document).ready(function ($) {
-//     $('.owl-karaoke-sets').owlCarousel({
-//         loop:false,
-//         autoWidth: true,
-//         items: 6,
-//         responsive : {
-//             0: {
-//                 loop:true,
-//                 autoplay:true,
-//                 autoplayTimeout:3000,
-//                 autoplayHoverPause:true
-//             },
-//             1600: {
-//                 autoplay:false,
-//                 autoplayHoverPause:false
-//             }
-//         }
-//     });
-//
-//
-// });
-//
 // $(document).ready(function(){
 //     $('.base_tab-preview').click(function(){
 //         var tab_id = $(this).attr('data-tab');
@@ -39,3 +17,8 @@
 //         $("."+tab_id).addClass('active');
 //     })
 // })
+
+import { partChangeByClick } from './parts.js';
+
+//PARTS: Табы: смена по клику
+partChangeByClick();
