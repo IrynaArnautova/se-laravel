@@ -12,7 +12,13 @@ export function partChangeByClick() {
             tabContents.forEach(item => {
                 item.classList.remove('active');
             })
-            document.querySelector('#' + tab).classList.add('active');
+            if(document.querySelector('#' + tab)) {
+                document.querySelector('#' + tab).classList.add('active');
+            }
+            if(document.querySelector('.' + tab)) {
+                document.querySelector('.' + tab).classList.add('active');
+            }
+            console.log(item)
             item.classList.add('active');
         })
     })
