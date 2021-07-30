@@ -11,7 +11,7 @@
 @stop
 
 @section('content')
-<main class="sets base_karaoke-container js_parent-tab">
+<main class="sets base_container js_parent-tab">
     <h1 class="base_title">@lang('karaoke-sets.main_title')</h1>
     <div class="base_tab">
         <img src="/images/karaoke-set/with-mic.jpg" class="base_img"  alt="@lang('karaoke-sets.alt_main_with_mic')">
@@ -77,8 +77,6 @@
     </div>
 </main>
 
-
-
 <section class="sets base_container">
     <h2 class="base_title">@lang('karaoke-sets.soundbar_title')</h2>
     <div class="sets_row js_parent-tab">
@@ -122,7 +120,6 @@
         <img src="/images/karaoke-set/preview-silver.jpg" class="base_tab-preview js_show-tab" data-tab="sabSilver" alt="@lang('lang.general.dark') evobox evolution @lang('karaoke-sets.alt_main_evobox_silver')">
         <img src="/images/karaoke-set/preview-black.jpg" class="base_tab-preview js_show-tab" data-tab="sabBlack" alt="@lang('lang.general.dark') evobox evolution @lang('karaoke-sets.alt_main_evobox_black')">
     </div>
-
     <div class="sets_inner">
         <div class="sets_col">
             <h3 class="base_subtitle">EVOBOX<br> @lang('karaoke-sets.soundbar_subtitle')</h3>
