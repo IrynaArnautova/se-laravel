@@ -88,6 +88,7 @@ a {
     display: block;
 }
 
+/* SETS */
 .sets-system .base_tab-img {
     width: 174px;
     left: 50%;
@@ -107,24 +108,17 @@ a {
 .sets_col:first-child {
     margin: 0 130px 0 0;
 }
-.evosound_img {
-    display: none;
-}
-.evosound_img.active {
-    display: block;
-}
 .sets_all .base_tab-img {
     width: 174px;
     transform: translateX(-92%);
 }
-
-.evosound_row {
+.sets_row {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin: 0 0 10px;
 }
-.evosound_btn {
+.sets_btn {
     font: 600 14px/18px "Open Sans", sans-serif;
     color: #222020;
     padding: 5px 11px;
@@ -133,40 +127,33 @@ a {
     cursor: pointer;
     border: thin solid rgba(34, 32, 32, 0.1);
 }
-.evosound_btn-black {
+.sets_btn-black {
     background: #222020;
     color: #ffffff;
 }
-.evosound_btn-white {
+.sets_btn-white {
     background: #fff;
     color: #222020;
 }
-.evosound_btn.active {
+.sets_btn.active {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.evosound_btn-white:hover {
+.sets_btn-white:hover {
     color: rgba(34, 32, 32, 0.5);
 }
-.evosound_btn-black:hover {
+.sets_btn-black:hover {
     color: rgba(255, 255, 255, 0.5);
 }
-.sets-evosound .base_tab-img {
-    transform: unset;
-    left: 64%;
-    bottom: 40px;
-    width: 174px;
+.sets_img {
+    display: none;
+}
+.sets_img.active {
+    display: block;
 }
 
 @media (max-width: 1150px) {
     .base_tab-img {
         width: 265px;
-    }
-    .sets-system .base_tab-img {
-        width: 174px;
-    }
-    .sets-evosound .base_tab-img {
-        bottom: 29px;
-        width: 154px;
     }
 }
 
@@ -183,13 +170,6 @@ a {
     .base_tab-img {
         width: 210px;
     }
-    .sets-system .base_tab-img {
-        width: 144px;
-        bottom: 10px;
-    }
-    .sets-evosound .base_tab-img {
-        width: 144px;
-    }
 }
 
 @media (max-width: 780px) {
@@ -198,13 +178,6 @@ a {
     }
     .sets {
         margin: 80px auto 0;
-    }
-    .sets-system .base_tab-img {
-        width: 124px;
-    }
-    .sets-evosound .base_tab-img {
-        bottom: 20px;
-        width: 124px;
     }
 }
 
@@ -217,9 +190,6 @@ a {
         font-size: 33px;
         line-height: 40px;
     }
-    .base_txt br {
-        display: none;
-    }
     .base_btn {
         width: 135px;
         font-size: 16px;
@@ -230,14 +200,7 @@ a {
         width: 130px;
         bottom: 12px;
     }
-    .sets-system .base_tab-img {
-        width: 90px;
-    }
-    .sets-evosound .base_tab-img {
-        bottom: 20px;
-        width: 100px;
-    }
-    .evosound_btn {
+    .sets_btn {
         font-size: 0;
         padding: 0;
         width: 36px;
@@ -258,10 +221,6 @@ a {
 }
 
 @media (max-width: 480px) {
-    .sets-evosound .base_tab-img {
-        width: 80px;
-        bottom: 10px;
-    }
     .base_tab-img {
         width: 90px;
         bottom: 50px;
@@ -290,11 +249,5 @@ a {
     .sets_all .base_img-mob.active {
         display: block;
         width: 100%;
-    }
-}
-
-@media (max-width: 400px) {
-    .sets-system .base_tab-img {
-        width: 60px;
     }
 }
