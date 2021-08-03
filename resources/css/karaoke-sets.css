@@ -1,3 +1,11 @@
+@import "./widgets-terms.css";
+@import "./widgets-dealers.css";
+
+hr {
+    margin: 100px 40px 50px;
+    border-top: 1px solid #eee;
+}
+
 /*БАЗОВЫЕ КЛАССЫ*/
 .base_title {
     margin: 0 0 56px;
@@ -69,6 +77,7 @@
 .sets {
     margin: 128px auto 0;
 }
+
 .sets_inner {
     display: flex;
     margin: 80px auto 0;
@@ -136,6 +145,10 @@
 }
 
 @media (max-width: 900px) {
+    .base_title {
+        font-size: 45px;
+        line-height: 50px;
+    }
     .sets_inner {
         display: block;
     }
@@ -165,13 +178,7 @@
         padding: 0 0 20px;
     }
     .base_title {
-        font-size: 33px;
-        line-height: 40px;
-    }
-    .base_btn {
-        width: 135px;
-        font-size: 16px;
-        height: 48px;
+        font-size: 36px;
         line-height: 48px;
     }
     .base_tab-img {
@@ -199,6 +206,13 @@
 }
 
 @media (max-width: 480px) {
+    .base_img {
+        display: none;
+    }
+    .base_img-mob {
+        display: block;
+        width: 100%;
+    }
     .base_tab-img {
         width: 90px;
         bottom: 50px;
@@ -208,16 +222,21 @@
         bottom: 22px;
         transform: unset;
     }
+    .sets_all .base_tab-img {
+        width: 110px;
+        bottom: 28px;
+        left: 26%;
+        transform: unset;
+    }
     .sets_sab .base_img.active,
     .sets_all .base_img.active {
         display: none;
     }
-    .base_img {
-        display: none;
-    }
-    .base_img-mob {
-        display: block;
-        width: 100%;
+    .sets_all .base_tab-img {
+        width: 110px;
+        bottom: 28px;
+        left: 26%;
+        transform: unset;
     }
     .sets_sab .base_img-mob,
     .sets_all .base_img-mob {
@@ -227,5 +246,26 @@
     .sets_all .base_img-mob.active {
         display: block;
         width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .base_tab-img {
+        width: 80px;
+        bottom: 33px;
+    }
+    .sets_sab .base_tab-img {
+        width: 80px;
+        bottom: 23px;
+        transform: unset;
+    }
+    .base_subtitle {
+        font-size: 33px;
+        line-height: 38px;
+    }
+    .sets_all .base_tab-img {
+        bottom: 15px;
+        width: 90px;
+        left: 51%;
     }
 }

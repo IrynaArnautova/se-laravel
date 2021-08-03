@@ -1,12 +1,12 @@
-@import './widgets-terms.css';
-@import './widgets-dealers.css';
+@import "./widgets-terms.css";
+@import "./widgets-dealers.css";
 
 /*EVOSOUND*/
 .evosound {
     padding: 90px 20px;
 }
 .evosound_title {
-    font: 400 68px/73px 'Open Sans', sans-serif;
+    font: 400 68px/73px "Open Sans", sans-serif;
     margin: 0 0 80px;
     color: #222020;
 }
@@ -28,17 +28,17 @@
     display: block;
 }
 .evosound_name {
-    font: 700 45px/50px 'Open Sans', sans-serif;
+    font: 700 45px/50px "Open Sans", sans-serif;
     color: #222020;
     margin: 0 0 10px;
 }
 .evosound_subtitle {
-    font: 400 20px/26px 'Open Sans', sans-serif;
+    font: 400 20px/26px "Open Sans", sans-serif;
     color: #000;
     margin: 0 0 28px;
 }
 .evosound_btn {
-    font: 600 14px/18px 'Open Sans', sans-serif;
+    font: 600 14px/18px "Open Sans", sans-serif;
     color: #222020;
     padding: 5px 11px;
     margin: 0 2px 28px;
@@ -47,7 +47,7 @@
 }
 .evosound_btn-black {
     background: #222020;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .evosound_btn-white {
     background: #fff;
@@ -64,10 +64,10 @@
 }
 .evosound_link {
     display: block;
-    color: #00AFED;
+    color: #00afed;
     margin: 28px 0 0;
     text-decoration: underline;
-    font: 600 20px/24px 'Open Sans', sans-serif;
+    font: 600 20px/24px "Open Sans", sans-serif;
 }
 .evosound_link:hover {
     opacity: 0.8;
@@ -75,9 +75,8 @@
 }
 .evosound_separator {
     width: 100%;
-    border-bottom: 20px solid #F2F2F2;
+    border-bottom: 20px solid #f2f2f2;
 }
-
 
 /*EVOSOUND-OLD*/
 .evosound-old {
@@ -85,7 +84,7 @@
     justify-content: center;
     align-items: center;
     padding: 44px 0;
-    background: #EEEFEE;
+    background: #eeefee;
     margin: 0 0 100px;
 }
 .evosound-old_img {
@@ -95,21 +94,21 @@
 .evosound-old_label {
     padding: 6px 13px;
     color: #222020;
-    font: 400 17px/24px 'Open Sans', sans-serif;
-    background: #D8D8D8;
+    font: 400 17px/24px "Open Sans", sans-serif;
+    background: #d8d8d8;
     border-radius: 18px;
 }
 .evosound-old_title {
     margin: 10px 0 14px;
-    font: 700 28px/34px 'Open Sans', sans-serif;
+    font: 700 28px/34px "Open Sans", sans-serif;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     .evosound_title {
-        font: 400 34px/40px 'Open Sans', sans-serif;
+        font: 400 34px/40px "Open Sans", sans-serif;
     }
     .evosound_name {
-        font: 700 28px/30px 'Open Sans', sans-serif;
+        font: 700 28px/30px "Open Sans", sans-serif;
         color: #222020;
         margin: 0 0 10px;
     }
