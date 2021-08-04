@@ -28,6 +28,9 @@ class PageController extends Controller
     public function karaoke_sets() {
         return view('pages.karaoke-sets');
     }
+    public function karaoke_set_evosound() {
+        return view('pages.karaoke-set_evosound');
+    }
 
     public function sitemap()
     {

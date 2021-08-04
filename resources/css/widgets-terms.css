@@ -7,19 +7,24 @@
 .widgets-terms_title {
     color: #222020;
     margin: 0 0 20px;
-    font: 400 32px/44px 'Open Sans', sans-serif;
+    font: 400 32px/44px "Open Sans", sans-serif;
 }
 .widgets-terms_link {
     color: #00afed;
     text-decoration: underline;
-    font: 700 24px/24px 'Open Sans', sans-serif;
+    font: 700 24px/24px "Open Sans", sans-serif;
 }
-@media(max-width: 767px) {
+.widgets-terms_link:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    color: #00afed;
+}
+@media (max-width: 767px) {
     .widgets-terms {
         padding: 150px 20px;
         background: url(/images/ic-terms-mob.jpg) no-repeat center/auto;
     }
     .widgets-terms_title {
-        font: 400 26px/30px 'Open Sans', sans-serif;
+        font: 400 26px/30px "Open Sans", sans-serif;
     }
 }

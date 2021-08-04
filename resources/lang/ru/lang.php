@@ -38,6 +38,8 @@ return [
         'black' => 'Черный',
         'white' => 'Жемчужный',
         'bigger' => 'Увеличить',
+        'karaoke_system' => 'Караоке-система',
+        'microphones' => 'Микрофоны',
         'size' => 'мм',
         'weight' => 'кг',
         'things' => 'шт.',
@@ -59,5 +61,6 @@ return [
         'length' => 'Длина:',
         'width' => 'Ширина:',
         'heft' => 'Вес:',
+
     ],
 ];

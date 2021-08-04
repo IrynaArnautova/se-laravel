@@ -5,16 +5,21 @@
     text-align: center;
 }
 .widgets-dealers_title {
-    font: 300 32px/32px 'Open Sans', sans-serif;
+    font: 300 32px/32px "Open Sans", sans-serif;
     margin: 0 0 20px;
 }
 .widgets-dealers_txt {
-    font: 400 16px/18px 'Open Sans', sans-serif;
+    font: 400 16px/18px "Open Sans", sans-serif;
 }
 .widgets-dealers_link {
     display: inline-block;
     padding: 19px 70px;
     margin: 10px auto 20px;
+}
+.widgets-dealers_link:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    color: #00afed;
 }
 .widgets-dealers_txt a {
     color: #2bb5ed;
@@ -22,7 +27,7 @@
 .widgets-dealers_txt a:hover {
     text-decoration: underline;
 }
-@media(max-width: 500px) {
+@media (max-width: 500px) {
     .widgets-dealers_txt br {
         display: none;
     }

@@ -36,6 +36,10 @@ mix
     .js('resources/js/karaoke-sets.js', 'public/js/karaoke-sets.min.js')
     .postCss('resources/css/karaoke-sets.css', 'public/css/karaoke-sets.min.css')
 
+    // Караоке комплект evosound
+    .js('resources/js/karaoke-set.js', 'public/js/karaoke-set.min.js')
+    .postCss('resources/css/karaoke-set_evosound.css', 'public/css/karaoke-set_evosound.min.css')
+
 
 
     .options({

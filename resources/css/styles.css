@@ -58,6 +58,16 @@ img {
     display: flex;
     align-items: center;
 }
+.flex_jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_ai-c_jc-fe {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 .flex_ai-c_jc-c {
     display: flex;
     align-items: center;

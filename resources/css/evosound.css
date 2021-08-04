@@ -5,39 +5,39 @@
 .evosound {
     padding: 90px 20px;
 }
-.evosound_title {
+.sets_title {
     font: 400 68px/73px "Open Sans", sans-serif;
     margin: 0 0 80px;
     color: #222020;
 }
-.evosound_title a {
+.sets_title a {
     color: inherit;
 }
-.evosound_images {
+.sets_images {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto 24px;
 }
-.evosound_img:hover {
+.sets_img:hover {
     opacity: 0.8;
 }
-.evosound_img {
+.sets_img {
     display: none;
 }
-.evosound_img.active {
+.sets_img.active {
     display: block;
 }
-.evosound_name {
+.sets_name {
     font: 700 45px/50px "Open Sans", sans-serif;
     color: #222020;
     margin: 0 0 10px;
 }
-.evosound_subtitle {
+.sets_subtitle {
     font: 400 20px/26px "Open Sans", sans-serif;
     color: #000;
     margin: 0 0 28px;
 }
-.evosound_btn {
+.sets_btn {
     font: 600 14px/18px "Open Sans", sans-serif;
     color: #222020;
     padding: 5px 11px;
@@ -45,35 +45,35 @@
     border-radius: 30px;
     border: thin solid rgba(34, 32, 32, 0.1);
 }
-.evosound_btn-black {
+.sets_btn-black {
     background: #222020;
     color: #ffffff;
 }
-.evosound_btn-white {
+.sets_btn-white {
     background: #fff;
     color: #222020;
 }
-.evosound_btn.active {
+.sets_btn.active {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.evosound_btn-white:hover {
+.sets_btn-white:hover {
     color: rgba(34, 32, 32, 0.5);
 }
-.evosound_btn-black:hover {
+.sets_btn-black:hover {
     color: rgba(255, 255, 255, 0.5);
 }
-.evosound_link {
+.sets_link {
     display: block;
     color: #00afed;
     margin: 28px 0 0;
     text-decoration: underline;
     font: 600 20px/24px "Open Sans", sans-serif;
 }
-.evosound_link:hover {
+.sets_link:hover {
     opacity: 0.8;
     text-decoration: none;
 }
-.evosound_separator {
+.sets_separator {
     width: 100%;
     border-bottom: 20px solid #f2f2f2;
 }
@@ -104,10 +104,10 @@
 }
 
 @media (max-width: 600px) {
-    .evosound_title {
+    .sets_title {
         font: 400 34px/40px "Open Sans", sans-serif;
     }
-    .evosound_name {
+    .sets_name {
         font: 700 28px/30px "Open Sans", sans-serif;
         color: #222020;
         margin: 0 0 10px;

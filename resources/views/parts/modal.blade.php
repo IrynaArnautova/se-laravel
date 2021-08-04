@@ -2,8 +2,8 @@
     <div class="modal_overlay js_close-modal"></div>
     <div class="modal_close">
         <div class="base_container">
-            <div class="evosound_btn-modal evosound_btn-black active" id="barBlackTab" data-tab="barBlackSlider">Черный</div>
-            <div class="evosound_btn-modal evosound_btn-white" id="barWhiteTab" data-tab="barWhiteSlider">Жемчужный</div>
+            <div class="sets_btn-modal sets_btn-black active" id="barBlackTab" data-tab="barBlackSlider">Черный</div>
+            <div class="sets_btn-modal sets_btn-white" id="barWhiteTab" data-tab="barWhiteSlider">Жемчужный</div>
             <div class="modal_close-btn js_close-modal">Уменьшить</div>
         </div>
     </div>

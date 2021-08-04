@@ -1,16 +1,18 @@
 {
-    "/js/scripts.min.js": "/js/scripts.min.js?id=977c34fdf530e642edd2",
-    "/js/comparison.min.js": "/js/comparison.min.js?id=7014588f28c985eaf801",
+    "/js/scripts.min.js": "/js/scripts.min.js?id=38c557c2df396b0205f9",
+    "/js/comparison.min.js": "/js/comparison.min.js?id=51bdba778a66f4db14f7",
     "/js/evosound.min.js": "/js/evosound.min.js?id=6722a67d75f66436629d",
-    "/js/bar.min.js": "/js/bar.min.js?id=fe6a38f818c0a08411d5",
-    "/js/sphere.min.js": "/js/sphere.min.js?id=82c2a1264b2682e1524a",
-    "/js/karaoke-sets.min.js": "/js/karaoke-sets.min.js?id=a55bfb7697ce79a958e1",
-    "/css/evosound.min.css": "/css/evosound.min.css?id=a8488663ae25ce333634",
+    "/js/bar.min.js": "/js/bar.min.js?id=a34bbec4337f00b33838",
+    "/js/sphere.min.js": "/js/sphere.min.js?id=6b7ba88f9fc644e01203",
+    "/js/karaoke-sets.min.js": "/js/karaoke-sets.min.js?id=a20a1098e06877c46897",
+    "/js/karaoke-set.min.js": "/js/karaoke-set.min.js?id=d6508d7d85b0a4b8d355",
+    "/css/evosound.min.css": "/css/evosound.min.css?id=bf61c843f3fcbbf6b7dd",
+    "/css/karaoke-sets.min.css": "/css/karaoke-sets.min.css?id=cb7e0cf092921cc4966f",
     "/css/bar.min.css": "/css/bar.min.css?id=283a9e8d6168deac51ed",
     "/css/sphere.min.css": "/css/sphere.min.css?id=6efe067ef91302155184",
     "/css/bar-specification.min.css": "/css/bar-specification.min.css?id=68b329da9893e34099c7",
     "/css/comparison.min.css": "/css/comparison.min.css?id=51a7123c344f6de22ec2",
     "/css/home.min.css": "/css/home.min.css?id=f234ed297e8f178df257",
-    "/css/karaoke-sets.min.css": "/css/karaoke-sets.min.css?id=9e766bf96ac6de3ca6e8",
-    "/css/styles.min.css": "/css/styles.min.css?id=a82e7738a4012e8d356f"
+    "/css/styles.min.css": "/css/styles.min.css?id=a60d1ae3bc609952a296",
+    "/css/karaoke-set_evosound.min.css": "/css/karaoke-set_evosound.min.css?id=3bd8f26076968f447a1a"
 }
