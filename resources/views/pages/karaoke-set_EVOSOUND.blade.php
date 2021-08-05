@@ -14,7 +14,7 @@
 <main class="set-evosound-main">
     <img src="/images/karaoke-set/EVOBOX+mic+SoundBar-RU.jpg" class="set-evosound-main_img" alt="">
     <div class="base_container">
-        <h1 class="base_title"><a href="javascript:;">@lang('karaoke-set_evosound.main_title_link')</a> @lang('karaoke-set_evosound.main_title')</h1>
+        <h1 class="set-evosound-main_title"><a href="javascript:;">@lang('karaoke-set_evosound.main_title_link')</a> @lang('karaoke-set_evosound.main_title')</h1>
         <p class="base_txt">@lang('karaoke-set_evosound.main_subtitle')</p>
         <div class="set-evosound-main_row js_parent-tab flex_ai-c_jc-fe">
             <div class="set-evosound-main_btn set-evosound-main_btn-black js_show-tab active" data-tab="barBlack">@lang('lang.general.black')</div>
@@ -173,7 +173,7 @@
             <a href="javascript:;" class="set-evosound-include_img" target="_blank">
                 <img src="/images/karaoke-set/evosound.jpg" class="set-evosound-include_evobox" alt="EvoBox-complect">
             </a>
-            <h3 class="set-evosound-include_content-title"></h3>
+            <h3 class="set-evosound-include_content-title">@lang('karaoke-set_evosound.include_content_title3')</h3>
             <div class="set-evosound-include_list">
                 <ul>
                     <li>@lang('karaoke-set_evosound.include_li21')</li>
@@ -241,7 +241,7 @@
                 </div>
             </div>
             <div class="set-evosound-banner_img set-evosound-banner_yellow flex_ai-c">
-                <div class="set-evosound-banner_evobox-plus">
+                <div class="set-evosound-banner_evobox">
                     <img src="/images/karaoke-set/banner_evobox-plus.png" alt="EVOBOX">
                 </div>
             </div>

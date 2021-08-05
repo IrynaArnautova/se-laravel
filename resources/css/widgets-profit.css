@@ -4,7 +4,7 @@
     max-width: 1120px;
     text-align: center;
     justify-content: center;
-    margin: 100px auto 40px;
+    /* margin: 100px auto 40px; */
     flex-wrap: wrap;
 }
 .widgets-profit_item {
@@ -18,18 +18,18 @@
 .widgets-profit_title {
     color: #222020;
     margin: 0 0 8px;
-    font: 700 20px/32px 'Open Sans', sans-serif;
+    font: 700 20px/32px "Open Sans", sans-serif;
 }
 .widgets-profit_txt {
     color: #222020;
     margin: 0 0 12px;
-    font: 400 16px/22px 'Open Sans', sans-serif;
+    font: 400 16px/22px "Open Sans", sans-serif;
 }
 .widgets-profit_link {
-    color: #00AFED;
+    color: #00afed;
     text-decoration: underline;
-    font: 400 16px/22px 'Open Sans', sans-serif;
+    font: 400 16px/22px "Open Sans", sans-serif;
 }
 .widgets-profit_link:hover {
-    color: #FFA200;
+    color: #ffa200;
 }
