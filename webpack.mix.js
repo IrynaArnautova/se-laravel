@@ -44,6 +44,10 @@ mix
     // Караоке комплект + стереосистема
     .postCss('resources/css/karaoke-set_acoustic.css', 'public/css/karaoke-set_acoustic.min.css')
 
+    // Пакеты обновлений
+    .js('resources/js/package-update.js', 'public/js/package-update.min.js')
+    .postCss('resources/css/package-update.css', 'public/css/package-update.min.css')
+
 
     .options({
         processCssUrls: false,

@@ -1,0 +1,468 @@
+body {
+    overflow-x: hidden;
+}
+.comparison {
+    max-width: 1320px;
+    margin: 0 auto;
+    overflow-x: auto;
+    position: relative;
+}
+.comparison_title {
+    font: 300 48px/60px 'Open Sans', sans-serif;
+    text-align: center;
+    color: #141414;
+    margin: 180px 0 40px;
+}
+.comparison_subtitle {
+    text-align: center;
+    margin: 0 0 40px;
+    font: 400 16px/24px 'Open Sans', sans-serif;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.comparison_title a {
+    color: #000000;
+}
+.comparison_subtitle-link {
+    text-decoration: underline;
+    color: #3DA2E6;
+}
+.comparison_row {
+    display: flex;
+}
+.comparison_header {
+    position: relative;
+    height: 270px;
+}
+.comparison_header-col {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+.comparison_header.sticky .comparison_header-col {
+    position: fixed;
+    top: 70px;
+    overflow-x: auto;
+}
+.comparison_row-main-header {
+    padding: 120px 10px 10px 44px;
+    height: 270px;
+    min-width: 385px;
+    background: #fff;
+}
+.comparison_row-main-title {
+    font: 700 26px/33px 'Open Sans', sans-serif;
+    color: #303446;
+}
+.comparison_row-header {
+    background: #FAFBFB;
+    min-width: 230px;
+    max-width: 230px;
+    height: 270px;
+    border-left: 2px solid #F5F8FB;
+    padding: 12px 22px 18px;
+    position: relative;
+}
+.comparison_row-header-img {
+    max-width: 124px;
+    width: 100%;
+}
+.comparison_row-header-title {
+    font: 400 20px/36px 'Open Sans', sans-serif;
+    letter-spacing: -0.4px;
+    color: #000000;
+    margin: 0 0 10px;
+}
+.comparison_row-header-price {
+    font: 400 24px/26px 'Open Sans', sans-serif;
+    letter-spacing: -0.566667px;
+    color: #000000;
+    margin: 0 0 16px;
+}
+.comparison_row-btn {
+    display: block;
+    font: 700 16px/40px 'PT Sans',sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    width: 138px;
+    border-radius: 5px;
+}
+.comparison_row-btn.base_purpure {
+    background: #3023AE;
+}
+.comparison_row-btn.base_blue {
+    background: #205FDF;
+}
+.comparison_row-btn.base_red {
+    background: #B4172C;
+}
+.comparison_row-btn.base_green {
+    background: #017E79;
+}
+.comparison_row-btn:hover {
+    opacity: 0.8;
+}
+.comparison_row-main {
+    min-width: 385px;
+    max-width: 385px;
+    padding: 42px 44px 15px;
+    font: 400 16px/18px 'Open Sans', sans-serif;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.comparison_row-item {
+    min-width: 230px;
+    max-width: 230px;
+    padding: 42px 24px 15px;
+    font: 400 16px/22px 'Open Sans', sans-serif;
+    letter-spacing: -0.4px;
+    color: #616161;
+    border-left: 2px solid #F5F8FB;
+}
+.comparison_row-item a {
+    color: #616161;
+    text-decoration: none;
+}
+.comparison_row-item a:hover {
+    text-decoration: underline;
+}
+.comparison_row-check {
+    width: 24px;
+    height: 20px;
+}
+.comparison_row-close {
+    width: 18px;
+    height: 18px;
+}
+.comparison_row-long {
+    max-width: 600px;
+}
+.comparison_video {
+    background: #FFA200;
+    box-shadow: 0 22px 50px rgba(196, 196, 196, 0.62);
+    border-radius: 4px;
+    max-width: 1210px;
+    margin: 110px auto 0;
+    padding: 40px 140px;
+    display: flex;
+    align-items: flex-start;
+    transition: all .2s linear;
+}
+.comparison_video:hover {
+    background: #b57910;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+.comparison_video-img {
+    width: 350px;
+    margin: -70px 23px 0 0;
+    transition: all .2s linear;
+}
+.comparison_video:hover .comparison_video-img {
+    transform: scale(1.05);
+    transition: all .2s linear;
+}
+.comparison_video-txt {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 110%;
+    margin: 0 0 15px;
+}
+.comparison_video-look {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+}
+.comparison_video-look:after {
+    content: '';
+    position: absolute;
+    right: -30px;
+    top: 10px;
+    border-style: solid;
+    border-width: 6px 10px;
+    border-color: transparent transparent transparent #000;
+}
+
+
+
+
+.comparison_form {
+    background: linear-gradient(180deg, #640387 0%, #2A2958 49.79%);
+    margin: 100px auto 0;
+}
+.comparison_form-inner {
+    max-width: 1100px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 110px 0 170px 200px;
+}
+.comparison_form-img {
+    position: absolute;
+    bottom: 0;
+    left: -130px;
+    opacity: 0.3;
+}
+.comparison_form-wrapper {
+    margin: 0 150px 0 0;
+}
+.comparison_form-title {
+    text-transform: uppercase;
+    font: 600 60px/60px 'Open Sans', sans-serif;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin: 0 0 26px;
+}
+.comparison_form-txt {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+    margin: 0 0 30px;
+}
+.comparison_form-tel {
+    display: block;
+    font: 700 36px/56px 'Open Sans', sans-serif;
+    letter-spacing: 0.4px;
+    color: #FFD800;
+}
+.comparison_form-email {
+    display: block;
+    font: 700 22px/26px 'Open Sans', sans-serif;
+    letter-spacing: 0.4px;
+    color: #FFD800;
+}
+.comparison_form-label {
+    display: block;
+    margin: 0 auto 36px;
+    width: 300px;
+}
+.comparison_form-input {
+    width: 100%;
+    background: #fff;
+    min-height: 60px;
+    padding: 20px;
+    color: #5B5B5B;
+    font: 400 18px/18px 'Open Sans', sans-serif;
+}
+.comparison_form-policy {
+    color: #fff;
+    width: 300px;
+    margin: -15px auto 30px;
+    font: 400 12px/16px 'Open Sans', sans-serif;
+}
+.comparison_form-btn {
+    background: #FFD800;
+    color: #2A2958;
+    border-radius: 2px;
+    padding: 0 30px;
+    box-shadow: 0 4px 4px rgba(2, 74, 14, 0.25);
+    font: 700 26px/68px 'Open Sans', sans-serif;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+.comparison_form-btn:hover {
+    opacity: .8;
+    transition: all .2s linear;
+}
+
+
+.for-mobile {
+    display: none;
+}
+
+
+.comparison-specialist {
+    padding: 90px 0 130px;
+    background: url('../images/update/specialist.jpg') no-repeat center/cover;
+}
+.comparison-specialist_inner {
+    margin: 0 0 0 calc(50% - 500px);
+    max-width: 700px;
+}
+.comparison-specialist_title {
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 0 0 30px;
+}
+.comparison-specialist_txt {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0 0 60px;
+}
+.comparison-specialist_btn {
+    display: block;
+    width: 306px;
+    background: #3DA2E6;
+    border: 2px solid #3DA2E6;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font: 700 24px/60px 'Open Sans', sans-serif;
+}
+.comparison-specialist_btn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+@media(max-width: 980px) {
+    .for-desktop {
+        display: none;
+    }
+    .for-mobile {
+        display: block;
+    }
+    .comparison {
+        width: auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .comparison_title {
+        font: 300 38px/42px 'Open Sans', sans-serif;
+        margin: 60px 0 48px;
+    }
+    .comparison_row-block {
+        position: absolute;
+        top: 380px;
+        left: 0;
+    }
+    .comparison_row-main {
+        margin: 0 0 55px;
+        padding: 0 30px 0 10px;
+        height: 55px;
+        width: 100%;
+        max-width: unset;
+        font-weight: 600;
+    }
+    .comparison_row-item {
+        padding: 15px 10px 0;
+        border-left: 0;
+        height: 90px;
+        min-width: unset;
+        max-width: unset;
+        margin: 0 0 17px;
+    }
+    .comparison_row-item:last-child {
+        margin: 50px 0 0;
+    }
+    .comparison_row-high {
+        display: block;
+        height: 240px;
+        margin: 0 0 17px;
+    }
+    .comparison_row-main-high {
+        height: 200px;
+        margin: 10px 0 44px;
+    }
+    .comparison_row-header {
+        min-width: unset;
+        max-width: unset;
+        margin: 80px 0 60px;
+        text-align: center;
+        border: 0;
+        box-shadow: none;
+        position: sticky;
+        top: 0;
+
+    }
+    .comparison_row-header-img {
+        margin: 0 auto;
+    }
+    .comparison_row-header-btn {
+        margin: 0 auto 16px;
+    }
+    .comparison_row-main-header {
+        background: transparent;
+        padding: 0 20px;
+        box-shadow: none;
+        height: unset;
+        min-width: unset;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .comparison_row-main-radio {
+        margin: 0 0 16px 24px;
+    }
+    .comparison .swiper-pagination {
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .comparison .swiper-pagination-bullet {
+        background: #C4C4C4;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+    .comparison .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background: #FFA200;
+    }
+    .comparison_video {
+        display: block;
+        max-width: 347px;
+        margin: 40px auto 0;
+        padding: 40px 20px;
+    }
+    .comparison_form-inner {
+        padding: 60px 20px;
+        max-width: unset;
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+    .comparison_form-img {
+        display: none;
+    }
+    .comparison_form-title {
+        margin: 0 auto 20px;
+        font-size: 44px;
+        width: auto;
+        line-height: 100%;
+    }
+    .comparison_form-txt {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .comparison_form-tel {
+        font-size: 32px;
+    }
+    .comparison_form-email {
+        font-size: 18px;
+    }
+    .comparison-specialist {
+        text-align: center;
+        margin: 0 auto;
+        padding: 90px 30px 130px;
+    }
+    .comparison-specialist_title {
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .comparison-specialist_txt {
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+@media(max-width: 820px) {
+    .comparison_form {
+        margin: 100px 0 0;
+    }
+}
+
+
+

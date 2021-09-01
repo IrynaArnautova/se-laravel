@@ -533,7 +533,7 @@
                 <a href="tel:+380443793151" class="comparison_form-tel" target="_blank">+38 (044) 379 31 51</a>
                 <a href="mailto:buy_ua@studio-evolution.com" class="comparison_form-email" target="_blank">buy_ua@studio-evolution.com</a>
                 <form>
-                <label class="comparison_form-label">
+                    <label class="comparison_form-label">
                         <input class="comparison_form-input" type="text" name="name" placeholder="@lang('lang.general.name')">
                     </label>
                     <label class="comparison_form-label">

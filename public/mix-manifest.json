@@ -1,11 +1,12 @@
 {
-    "/js/scripts.min.js": "/js/scripts.min.js?id=04a6922c7d2e0f729a6c",
+    "/js/scripts.min.js": "/js/scripts.min.js?id=928ed972e65c8698a687",
     "/js/comparison.min.js": "/js/comparison.min.js?id=7014588f28c985eaf801",
     "/js/evosound.min.js": "/js/evosound.min.js?id=6722a67d75f66436629d",
     "/js/bar.min.js": "/js/bar.min.js?id=a34bbec4337f00b33838",
     "/js/sphere.min.js": "/js/sphere.min.js?id=6b7ba88f9fc644e01203",
     "/js/karaoke-sets.min.js": "/js/karaoke-sets.min.js?id=a20a1098e06877c46897",
     "/js/karaoke-set.min.js": "/js/karaoke-set.min.js?id=199b592593bf4fa9be4f",
+    "/js/package-update.min.js": "/js/package-update.min.js?id=27b9d8ef3abdd0e60ca2",
     "/css/karaoke-set_acoustic.min.css": "/css/karaoke-set_acoustic.min.css?id=88914e8d4f21d54653c8",
     "/css/karaoke-set_evosound.min.css": "/css/karaoke-set_evosound.min.css?id=88914e8d4f21d54653c8",
     "/css/karaoke-set_mic.min.css": "/css/karaoke-set_mic.min.css?id=6e24c45e340f516197bf",
@@ -16,5 +17,6 @@
     "/css/bar-specification.min.css": "/css/bar-specification.min.css?id=68b329da9893e34099c7",
     "/css/comparison.min.css": "/css/comparison.min.css?id=51a7123c344f6de22ec2",
     "/css/home.min.css": "/css/home.min.css?id=f234ed297e8f178df257",
-    "/css/styles.min.css": "/css/styles.min.css?id=3d906727bbad7d29a017"
+    "/css/styles.min.css": "/css/styles.min.css?id=3387c4a089e7cd765c94",
+    "/css/package-update.min.css": "/css/package-update.min.css?id=5639522356b7e18b45da"
 }

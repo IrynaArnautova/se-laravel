@@ -37,6 +37,9 @@ class PageController extends Controller
     public function karaoke_set_acoustic() {
         return view('pages.karaoke-set_acoustic');
     }
+    public function package_update() {
+        return view('pages.package-update');
+    }
 
     public function sitemap()
     {
