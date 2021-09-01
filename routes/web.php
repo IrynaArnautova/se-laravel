@@ -24,7 +24,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('/evosound-bar/specification-and-grades-evosound-bar', [PageController::class, 'bar_specification'])->name('bar_specification');
     Route::get('/evosound-sphere', [PageController::class, 'sphere'])->name('sphere');
     Route::get('/komplekty-dlya-karaoke', [PageController::class, 'karaoke_sets'])->name('karaoke_sets');
+    Route::get('/karaoke-komplekty-s-mikrofonami', [PageController::class, 'karaoke_set_mic'])->name('karaoke_set_mic');
     Route::get('/karaoke-komplekty-s-saundbarom', [PageController::class, 'karaoke_set_evosound'])->name('karaoke_set_evosound');
+    Route::get('/karaoke-komplekt-so-stereosistemoj', [PageController::class, 'karaoke_set_acoustic'])->name('karaoke_set_acoustic');
 });
 
 

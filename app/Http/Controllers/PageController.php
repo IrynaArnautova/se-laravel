@@ -28,8 +28,14 @@ class PageController extends Controller
     public function karaoke_sets() {
         return view('pages.karaoke-sets');
     }
+    public function karaoke_set_mic() {
+        return view('pages.karaoke-set_mic');
+    }
     public function karaoke_set_evosound() {
         return view('pages.karaoke-set_evosound');
+    }
+    public function karaoke_set_acoustic() {
+        return view('pages.karaoke-set_acoustic');
     }
 
     public function sitemap()

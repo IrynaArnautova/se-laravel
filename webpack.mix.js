@@ -9,7 +9,6 @@ mix
     ], 'public/css/styles.min.css')
 
     // Главная
-    // .js('resources/js/home.js', 'public/js/home.min.js')
     .postCss('resources/css/home.css', 'public/css/home.min.css')
 
     // Сравнение караоке-систем
@@ -27,7 +26,6 @@ mix
     // Evosound bar спецификация
     .postCss('resources/css/bar-specification.css', 'public/css/bar-specification.min.css')
 
-
     // Evosound sphere
     .js('resources/js/sphere.js', 'public/js/sphere.min.js')
     .postCss('resources/css/sphere.css', 'public/css/sphere.min.css')
@@ -36,10 +34,15 @@ mix
     .js('resources/js/karaoke-sets.js', 'public/js/karaoke-sets.min.js')
     .postCss('resources/css/karaoke-sets.css', 'public/css/karaoke-sets.min.css')
 
-    // Караоке комплект evosound
+    // Караоке комплект + микрофоны
     .js('resources/js/karaoke-set.js', 'public/js/karaoke-set.min.js')
+    .postCss('resources/css/karaoke-set_mic.css', 'public/css/karaoke-set_mic.min.css')
+
+    // Караоке комплект + саундбар
     .postCss('resources/css/karaoke-set_evosound.css', 'public/css/karaoke-set_evosound.min.css')
 
+    // Караоке комплект + стереосистема
+    .postCss('resources/css/karaoke-set_acoustic.css', 'public/css/karaoke-set_acoustic.min.css')
 
 
     .options({
