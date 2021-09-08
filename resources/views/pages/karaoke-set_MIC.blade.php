@@ -14,28 +14,28 @@
         <main class="set-evosound-main">
             <img src="/images/karaoke-set/EVOBOX+mic-RU.jpg" class="set-evosound-main_img" alt="">
             <div class="base_container">
-                <h1 class="set-evosound-main_title">Караоке-комплект <br>с микрофонами</h1>
-                <p class="base_txt">Базовый караоке-комплект для домашнего караоке от Studio Evolution. Включает в себя профессиональную караоке-систему и два цифровых беспроводных микрофона SE&nbsp;•&nbsp;200D. </p>
+                <h1 class="set-evosound-main_title">@lang('karaoke-set_mic.slider_title') <br>@lang('karaoke-set_mic.main_title')</h1>
+                <p class="base_txt">@lang('karaoke-set_mic.main_subtitle')</p>
                 <div class="base_tab js_parent-tab">
                     <img src="/images/karaoke-set/with-mic.jpg" class="base_img-tab"  alt="">
                     <img src="/images/karaoke-set/with-mic-mob.jpg" class="base_img-tab-mob" alt="">
                     <div class="base_tab-img js_tab-content active" id="micGrey">
-                        <img src="/images/karaoke-set/evobox-grey.png" alt="профессиональная караоке система с микрофонами серая">
+                        <img src="/images/karaoke-set/evobox-grey.png" alt="@lang('karaoke-set_mic.alt_main_evobox_grey')">
                     </div>
                     <div class="base_tab-img js_tab-content" id="micRed">
-                        <img src="/images/karaoke-set/evobox-red.png" alt="профессиональная караоке система с микрофонами красная">
+                        <img src="/images/karaoke-set/evobox-red.png" alt="@lang('karaoke-set_mic.alt_main_evobox_red')">
                     </div>
                     <div class="base_tab-img js_tab-content" id="micBlue">
-                        <img src="/images/karaoke-set/evobox-blue.png" alt="профессиональная караоке система с микрофонами синяя">
+                        <img src="/images/karaoke-set/evobox-blue.png" alt="@lang('karaoke-set_mic.alt_main_evobox_blue')">
                     </div>
                     <div class="base_tab-img js_tab-content" id="micGold">
-                        <img src="/images/karaoke-set/evobox-gold.png" alt="профессиональная караоке система с микрофонами золотая">
+                        <img src="/images/karaoke-set/evobox-gold.png" alt="@lang('karaoke-set_mic.alt_main_evobox_gold')">
                     </div>
                     <div class="base_tab-img js_tab-content" id="micSilver">
-                        <img src="/images/karaoke-set/evobox-silver.png" alt="профессиональная караоке система с микрофонами серебрянная">
+                        <img src="/images/karaoke-set/evobox-silver.png" alt="@lang('karaoke-set_mic.alt_main_evobox_silver')">
                     </div>
                     <div class="base_tab-img js_tab-content" id="micBlack">
-                        <img src="/images/karaoke-set/evobox-black.png" alt="профессиональная караоке система с микрофонами черная">
+                        <img src="/images/karaoke-set/evobox-black.png" alt="@lang('karaoke-set_mic.alt_main_evobox_black')">
                     </div>
                 </div>
                 <div class="base_tab-content js_parent-tab flex">
@@ -48,9 +48,9 @@
                 </div>
                 <div class="set-evosound-main_inner flex">
                     <div class="set-evosound-main_col">
-                        <p class="base_subtitle">EVOBOX<br> с микрофонами</p>
-                        <p class="base_txt">Караоке-система и 2 цифровых беспроводных микрофона SE&nbsp;•&nbsp;200D.</p>
-                        <p class="base_txt">2 000 песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                        <p class="base_subtitle">EVOBOX<br> @lang('karaoke-set_mic.main_title')</p>
+                        <p class="base_txt">@lang('karaoke-set_mic.main_txt1')</p>
+                        <p class="base_txt">@lang('karaoke-set_mic.main_txt2')</p>
                         <div class="base_price-box">
                             <p class="base_price-old">111</p>
                             <p class="base_price-profit">@lang('lang.general.profit') 11</p>
@@ -62,9 +62,9 @@
                         </div>
                     </div>
                     <div class="set-evosound-main_col">
-                        <p class="base_subtitle">EVOBOX Plus <br> с микрофонами</p>
-                        <p class="base_txt">Караоке-система и 2 цифровых беспроводных микрофона SE&nbsp;•&nbsp;200D.</p>
-                        <p class="base_txt">41 000+ песен и возможность загрузки песен из каталога на 80 000 караоке-фонограмм.</p>
+                        <p class="base_subtitle">EVOBOX Plus <br> @lang('karaoke-set_mic.main_title')</p>
+                        <p class="base_txt">@lang('karaoke-set_mic.main_txt1')</p>
+                        <p class="base_txt">@lang('karaoke-set_mic.main_txt3')</p>
                         <div class="base_price-box">
                             <p class="base_price-old">111</p>
                             <p class="base_price-profit">@lang('lang.general.profit') 11</p>
@@ -80,7 +80,7 @@
         </main>
 
         <section class="set-evosound-slider">
-            <h2 class="set-evosound-slider_title">@lang('karaoke-set_evosound.slider_title')</h2>
+            <h2 class="set-evosound-slider_title">@lang('karaoke-set_mic.slider_title')</h2>
             <div class="set-evosound-slider_content">
                 <div class="swiper-container js_set-slider">
                     <div class="swiper-wrapper">
@@ -121,7 +121,7 @@
 
         <section class="set-evosound-include js_parent-tab">
            <div class="base_container">
-               <h2 class="set-evosound-include_title">Что входит в <a href="">караоке-комплект?</a></h2>
+               <h2 class="set-evosound-include_title">@lang('karaoke-set_mic.include_title1') <a href="">@lang('karaoke-set_mic.include_title2')</a></h2>
                <div class="set-evosound-include_tabs flex_ai-c">
                    <a href="javascript:;" class="set-evosound-include_tab js_show-tab active" data-tab="systemBlock">@lang('lang.general.karaoke_system')</a>
                    <a href="javascript:;" class="set-evosound-include_tab js_show-tab" data-tab="micBlock">@lang('lang.general.microphones')</a>
@@ -130,35 +130,35 @@
                    <a href="javascript:;" class="set-evosound-include_img" target="_blank">
                        <img src="/images/karaoke-set/EvoBox-set.jpg" alt="EvoBox-complect">
                    </a>
-                   <h3 class="set-evosound-include_content-title">@lang('karaoke-set_evosound.include_content_title1')</h3>
+                   <h3 class="set-evosound-include_content-title">@lang('karaoke-set_mic.include_content_title1')</h3>
                    <div class="set-evosound-include_list flex_jc-sb">
                        <div>
                            <ul>
-                               <li>@lang('karaoke-set_evosound.include_li')</li>
-                               <li>@lang('karaoke-set_evosound.include_li2')</li>
-                               <li>@lang('karaoke-set_evosound.include_li3')</li>
-                               <li>@lang('karaoke-set_evosound.include_li4')</li>
-                               <li>@lang('karaoke-set_evosound.include_li5')</li>
-                               <li>@lang('karaoke-set_evosound.include_li6')</li>
-                               <li>@lang('karaoke-set_evosound.include_li7')</li>
-                               <li>@lang('karaoke-set_evosound.include_li8')</li>
-                               <li>@lang('karaoke-set_evosound.include_li9')</li>
-                               <li>@lang('karaoke-set_evosound.include_li10')</li>
+                               <li>@lang('karaoke-set_mic.include_li')</li>
+                               <li>@lang('karaoke-set_mic.include_li2')</li>
+                               <li>@lang('karaoke-set_mic.include_li3')</li>
+                               <li>@lang('karaoke-set_mic.include_li4')</li>
+                               <li>@lang('karaoke-set_mic.include_li5')</li>
+                               <li>@lang('karaoke-set_mic.include_li6')</li>
+                               <li>@lang('karaoke-set_mic.include_li7')</li>
+                               <li>@lang('karaoke-set_mic.include_li8')</li>
+                               <li>@lang('karaoke-set_mic.include_li9')</li>
+                               <li>@lang('karaoke-set_mic.include_li10')</li>
                            </ul>
                            <a href="javascript:;" class="set-evosound-include_link" target="_blank">@lang('lang.general.recognize_link')</a>
                        </div>
                        <div class="set-evosound-include_list-specification">
                            <div>
                                <p class="set-evosound-include_list-specification-details">EVOBOX</p>
-                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_evosound.include_specification_parametr1')</p>
-                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_evosound.include_specification_parametr2')</p>
-                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_evosound.include_specification_parametr3')</p>
+                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_mic.include_specification_parametr1')</p>
+                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_mic.include_specification_parametr2')</p>
+                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_mic.include_specification_parametr3')</p>
                            </div>
                            <div>
                                <p class="set-evosound-include_list-specification-details">EVOBOX Plus</p>
-                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_evosound.include_specification_parametr4')</p>
-                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_evosound.include_specification_parametr5')</p>
-                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_evosound.include_specification_parametr6')</p>
+                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_mic.include_specification_parametr4')</p>
+                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_mic.include_specification_parametr5')</p>
+                               <p class="set-evosound-include_list-specification-parametr">@lang('karaoke-set_mic.include_specification_parametr6')</p>
                            </div>
                        </div>
                    </div>
@@ -167,19 +167,19 @@
                    <a href="javascript:;" class="set-evosound-include_img " target="_blank">
                        <img src="/images/karaoke-set/mic-set.jpg" alt="EvoSound-complect">
                    </a>
-                   <h3 class="set-evosound-include_content-title">@lang('karaoke-set_evosound.include_content_title2')</h3>
+                   <h3 class="set-evosound-include_content-title">@lang('karaoke-set_mic.include_content_title2')</h3>
                    <div class="set-evosound-include_list">
                        <ul>
-                           <li>@lang('karaoke-set_evosound.include_li11')</li>
-                           <li>@lang('karaoke-set_evosound.include_li12')</li>
-                           <li>@lang('karaoke-set_evosound.include_li13')</li>
-                           <li>@lang('karaoke-set_evosound.include_li14')</li>
-                           <li>@lang('karaoke-set_evosound.include_li15')</li>
-                           <li>@lang('karaoke-set_evosound.include_li16')</li>
-                           <li>@lang('karaoke-set_evosound.include_li17')</li>
-                           <li>@lang('karaoke-set_evosound.include_li18')</li>
-                           <li>@lang('karaoke-set_evosound.include_li19')</li>
-                           <li>@lang('karaoke-set_evosound.include_li20')</li>
+                           <li>@lang('karaoke-set_mic.include_li11')</li>
+                           <li>@lang('karaoke-set_mic.include_li12')</li>
+                           <li>@lang('karaoke-set_mic.include_li13')</li>
+                           <li>@lang('karaoke-set_mic.include_li14')</li>
+                           <li>@lang('karaoke-set_mic.include_li15')</li>
+                           <li>@lang('karaoke-set_mic.include_li16')</li>
+                           <li>@lang('karaoke-set_mic.include_li17')</li>
+                           <li>@lang('karaoke-set_mic.include_li18')</li>
+                           <li>@lang('karaoke-set_mic.include_li19')</li>
+                           <li>@lang('karaoke-set_mic.include_li20')</li>
                        </ul>
                        <a href="javascript:;" class="set-evosound-include_link" target="_blank">@lang('lang.general.recognize_link')</a>
                    </div>
@@ -194,10 +194,10 @@
                         <div class="set-evosound-banner_evobox-mic">
                             <img src="/images/karaoke-set/evobox-ocean-mic.png"  alt="EVOBOX">
                         </div>
-                        <h3 class="set-evosound-banner_title">@lang('karaoke-set_evosound.banner_title1')  EVOBOX</h3>
+                        <h3 class="set-evosound-banner_title">@lang('karaoke-set_mic.banner_title1')  EVOBOX</h3>
                         <p class="set-evosound-banner_number">2 000</p>
-                        <p class="set-evosound-banner_title">@lang('karaoke-set_evosound.banner_title1_1')</p>
-                        <p class="base_txt"> @lang('karaoke-set_evosound.banner_txt')</p>
+                        <p class="set-evosound-banner_title">@lang('karaoke-set_mic.banner_title1_1')</p>
+                        <p class="base_txt"> @lang('karaoke-set_mic.banner_txt')</p>
                         <div class="base_price-box">
                             <p class="base_price-old">111</p>
                             <p class="base_price-profit">@lang('lang.general.profit') 11</p>
@@ -210,7 +210,7 @@
                     </div>
                     <div class="set-evosound-banner_img set-evosound-banner_grey flex_ai-c">
                         <div class="set-evosound-banner_evobox">
-                            <img src="/images/karaoke-set/banner_evobox.png"  alt="@lang('karaoke-set_evosound.alt_banner_evobox')">
+                            <img src="/images/karaoke-set/banner_evobox.png"  alt="@lang('karaoke-set_mic.alt_banner_evobox')">
                         </div>
 
                     </div>
@@ -218,12 +218,12 @@
                 <div class="set-evosound-banner_inner flex_jc-c">
                     <div class="set-evosound-banner_content set-evosound-banner_yellow">
                         <div class="set-evosound-banner_evobox-mob">
-                            <img src="/images/karaoke-set/evobox-plus-mob.png" alt="@lang('karaoke-set_evosound.alt_banner_evobox_gold')">
+                            <img src="/images/karaoke-set/evobox-plus-mob.png" alt="@lang('karaoke-set_mic.alt_banner_evobox_gold')">
                         </div>
-                        <h3 class="set-evosound-banner_title">@lang('karaoke-set_evosound.banner_title1') EVOBOX Plus</h3>
+                        <h3 class="set-evosound-banner_title">@lang('karaoke-set_mic.banner_title1') EVOBOX Plus</h3>
                         <p class="set-evosound-banner_number">41 000+</p>
-                        <p class="set-evosound-banner_title">@lang('karaoke-set_evosound.banner_title1_1')</p>
-                        <p class="base_txt">@lang('karaoke-set_evosound.banner_txt2')</p>
+                        <p class="set-evosound-banner_title">@lang('karaoke-set_mic.banner_title1_1')</p>
+                        <p class="base_txt">@lang('karaoke-set_mic.banner_txt2')</p>
                         <div class="base_price-box">
                             <p class="base_price-old">111</p>
                             <p class="base_price-profit">@lang('lang.general.profit') 11</p>
