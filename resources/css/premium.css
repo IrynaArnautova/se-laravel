@@ -338,6 +338,7 @@ section {
     opacity: 0;
     max-width: 680px;
     width: 100%;
+    height: auto;
     transition: all 0.3s linear;
     border: 3px solid #151618;
     border-radius: 10px;
@@ -888,7 +889,7 @@ section {
     margin: 0 auto;
 }
 .premium-bottom .premium-main_inner {
-    margin: -260px auto 0;
+    margin: -240px auto 0;
 }
 .premium-bottom {
     overflow: hidden;
@@ -897,6 +898,11 @@ section {
     margin: 0 auto 24px;
 }
 
+@media (max-width: 1200px) {
+    .premium-bottom .premium-main_inner {
+        margin: -200px auto 0;
+    }
+}
 @media (max-width: 1000px) {
     .premium-bottom .premium-main_inner {
         margin: -150px auto 0;
