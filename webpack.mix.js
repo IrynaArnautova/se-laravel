@@ -48,6 +48,10 @@ mix
     .js('resources/js/package-update.js', 'public/js/package-update.min.js')
     .postCss('resources/css/package-update.css', 'public/css/package-update.min.css')
 
+    // EVOBOX Premium
+    .js('resources/js/premium.js', 'public/js/premium.min.js')
+    .postCss('resources/css/premium.css', 'public/css/premium.min.css')
+
 
     .options({
         processCssUrls: false,
