@@ -40,6 +40,9 @@ class PageController extends Controller
     public function package_update() {
         return view('pages.package-update');
     }
+    public function premium() {
+        return view('pages.premium');
+    }
 
     public function sitemap()
     {

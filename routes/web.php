@@ -28,6 +28,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('/karaoke-komplekty-s-saundbarom', [PageController::class, 'karaoke_set_evosound'])->name('karaoke_set_evosound');
     Route::get('/karaoke-komplekt-so-stereosistemoj', [PageController::class, 'karaoke_set_acoustic'])->name('karaoke_set_acoustic');
     Route::get('/kupit-paket-obnovlenij', [PageController::class, 'package_update'])->name('package_update');
+    Route::get('/evobox-premium', [PageController::class, 'premium'])->name('premium');
 });
 
 
