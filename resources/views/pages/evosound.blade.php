@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('head')
-    <title>Evosound</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
+    <title>Studio Evolution | Evosound</title>
+    <meta name="description" content="@lang('evosound.description')">
+    <meta name="keywords" content="@lang('evosound.keywords')">
+    <meta property="og:title" content="@lang('evosound.og_title')"/>
+    <meta property="og:description" content="@lang('evosound.description')"/>
     <link rel="preload" href="{{ mix('css/evosound.min.css') }}" as="style">
     <link href="{{ mix('css/evosound.min.css') }}" rel="stylesheet">
 @stop

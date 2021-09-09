@@ -1,6 +1,11 @@
 <?php
 
 return [   
+    //META
+    'og_title' => "Купить аудиосистемы от Studio Evolution",
+    'keywords' => "",
+    'description' => "Наличие аудиосистемы от Studio Evolution",
+
     //MAIN
     'main_title' => 'Купить аудиосистемы<br>от',
     'main_subtitle' => 'Первый караоке-саундбар',

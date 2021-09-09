@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('head')
-    <title>Evosound Bar</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
+    <title>Studio Evolution | @lang('premium.title') EVOBOX™ Premium</title>
+    <meta name="description" content="@lang('premium.description')">
+    <meta name="keywords" content="@lang('premium.keywords')">
+    <meta property="og:title" content="@lang('premium.og_title')"/>
+    <meta property="og:description" content="@lang('premium.description')"/>
     <link rel="preload" href="{{ mix('css/premium.min.css') }}" as="style">
     <link href="{{ mix('css/premium.min.css') }}" rel="stylesheet">
 @stop
@@ -13,51 +13,35 @@
 @section('content')
     <div class="premium">
         <section class="premium-main">
-            <h2 class="premium-main_title lazytext">EVOBOX™ Premium</h2>
-            <div class="premium-main_subtitle js_main-subtitle lazytext">
-                <span class="blue-color">Hi-End</span> <?php _e('караоке','my'); ?><br>
-            </div>
-            <img src="/wp-content/themes/html5blank-master/images/premium/main.jpg" class="premium-main_img" alt="EVOBOX">
+            <h2 class="premium-main_title ">EVOBOX™ Premium</h2>
+            <p class="premium-main_subtitle js_main-subtitle ">
+                <span class="blue-color">Hi-End</span> @lang('premium.main_subtitle')<br>
+            </p>
+            <img src="/images/premium/main.jpg" class="premium-main_img" alt="EVOBOX">
             <div class="premium-main_inner">
                 <div class="base_price-box">
-                    <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="58" project_id="11"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_price-profit"><?php _e('выгода','my'); ?> <?php echo do_shortcode( '[countryPrice id="58" project_id="11" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_price-old">111</p>
+                    <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                 </div>
-                <div class="premium-main_price"><?php echo do_shortcode( '[countryPrice id="58" project_id="11"] [countryPriceCurrencyFull]' );?></div>
-                <div class="premium-main_buttons js_main-subtitle lazytext">
-                    <?php
-                    if(ICL_LANGUAGE_CODE == 'ru'){
-                        echo do_shortcode( '[vc_button title="Купить" form_id="219"]' );
-                    } elseif (ICL_LANGUAGE_CODE == 'en'){
-                        echo do_shortcode( '[vc_button title="Buy" form_id="221"]' );
-                    } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                        echo do_shortcode( '[vc_button title="Придбати" form_id="220"]' );
-                    }
-                    ?>
-                    <?php
-                    if(ICL_LANGUAGE_CODE == 'ru'){
-                        echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="premium-main_credit" form_id="180"]' );
-                    } elseif (ICL_LANGUAGE_CODE == 'en'){
-                        echo do_shortcode( '[vc_button title="Credit 0%" el_class="premium-main_credit" form_id="179"]' );
-                    } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                        echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="premium-main_credit" form_id="181"]' );
-                    }
-                    ?>
+                <p class="base_price-current">222</p>
+                <div class="base_double ta-c">
+                    <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                    <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                 </div>
-            </div>
-            <div class="premium-main_limit">*<?php _e('лимитированная серия','my'); ?></div>
+            <p class="premium-main_limit">@lang('premium.main_limit')</p>
         </section>
-        <section class="premium-format base_container lazytext">
-            <h2 class="base_title"><?php _e('Превосходство формата','my'); ?></h2>
-            <div class="base_txt premium-format_subtitle">
-                <?php _e('Только в EVOBOX Premium тысячи караоке-фонограмм представлены в качестве Lossless Audio','my'); ?>
-                <span class="white-color"><?php _e('FLAC','my'); ?></span>.
-            </div>
+
+        <section class="premium-format base_container ">
+            <h2 class="base_title">@lang('premium.format_title')</h2>
+            <p class="base_txt premium-format_subtitle">
+                @lang('premium.format_subtitle')
+                <span class="white-color">FLAC</span>.
+            </p>
             <div>
                 <div class="premium-format_inner base_scroll js_move-scroll">
                     <div>
                         <div class="premium-format_col">
-                            <div class="premium-format_label premium-format_standart">Standart</div>
+                            <p class="premium-format_label premium-format_standart">Standart</p>
                             <div>
                                 <svg class="premium-format_img" width="555" height="333" viewBox="0 0 555 333" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="mask0" mask-type="alpha"  x="0" y="0" width="555" height="333">
@@ -213,156 +197,149 @@
                 </div>
                 <br>
                 <br>
-                <div class="base_txt premium-format_txt"><?php _e('В композициях EVOBOX Premium впервые в караоке используется кодировка FLAC (Lossless Audio). Это лучший аудиоформат, позволяющий воспроизводить музыку в студийном качестве.','my'); ?></div>
+                <div class="base_txt premium-format_txt">@lang('premium.format_txt')</div>
             </div>
         </section>
-        <section class="premium-sound base_container lazytext">
+
+        <section class="premium-sound base_container ">
             <div class="premium-sound_inner">
                 <div class="premium-sound_images">
-                    <h2 class="base_title"><?php _e('Бархатное звучание','my'); ?></h2>
+                    <h2 class="base_title">@lang('premium.sound_title')</h2>
                     <br>
-                    <img src="/wp-content/themes/html5blank-master/images/premium/AKM@2x.jpg" class="premium-sound_img active js_sticky-img" alt="Standart">
-                    <img src="/wp-content/themes/html5blank-master/images/premium/AKM2@2x.jpg" class="premium-sound_img js_sticky-img" alt="Standart">
-                    <img src="/wp-content/themes/html5blank-master/images/premium/AKM3@2x.jpg" class="premium-sound_img js_sticky-img" alt="Standart">
+                    <img src="/images/premium/AKM@2x.jpg" class="premium-sound_img active js_sticky-img" alt="">
+                    <img src="/images/premium/AKM2@2x.jpg" class="premium-sound_img js_sticky-img" alt="">
+                    <img src="/images/premium/AKM3@2x.jpg" class="premium-sound_img js_sticky-img" alt="">
                 </div>
                 <div>
                     <div class="premium-sound_content js_scroll-text">
-                        <img src="/wp-content/themes/html5blank-master/images/premium/AKM@2x.jpg" class="premium-sound_img-mob " alt="Standart">
-                        <span class="base_txt premium-sound_txt">
-                        <?php _e('Безукоризненную трансформацию','my'); ?><br>
-                        <?php _e('цифрового сигнала','my'); ?><br>
-                        <?php _e('в аналоговый гарантирует','my'); ?><br>
-                    </span>
-                        <span class="base_txt white-color"><?php _e('32-битный ЦАП AK4495EQ*.','my'); ?></span>
-                        <span class="premium-sound_subtxt">*<?php _e('Премиальная серия микросхем VELVET SOUND от мирового лидера Asahi Kasei Microdevices (Япония).','my'); ?></span>
+                        <img src="/images/premium/AKM@2x.jpg" class="premium-sound_img-mob " alt="">
+                        <span class="base_txt premium-sound_txt">@lang('premium.sound_txt1')</span>
+                        <span class="base_txt white-color">@lang('premium.sound_txt2')</span>
+                        <span class="premium-sound_subtxt">@lang('premium.sound_subtxt1')</span>
                     </div>
                     <div class="premium-sound_content js_scroll-text">
-                        <img src="/wp-content/themes/html5blank-master/images/premium/AKM2@2x.jpg" class="premium-sound_img-mob" alt="Standart">
+                        <img src="/images/premium/AKM2@2x.jpg" class="premium-sound_img-mob" alt="">
                         <div class="base_txt premium-sound_txt">
-                            <span class="white-color"><?php _e('Гальваническая развязка','my'); ?></span><br>
-                            <?php _e('Для аудиоинтерфейса EVOBOX Premium разработан уникальный модуль гальванической развязки.','my'); ?><br>
-                            <?php _e('Он защищает аудиосигнал от возможных наводок в звуковой цепи, которые могут возникнуть при инсталляции.','my'); ?><br>
-                            *<?php _e('Принцип работы гальванической развязки в EVOBOX Premium можно сравнить с дополнительной установкой в цепи аудиоинсталляции модуля DI-Box (Директ-бокс).','my'); ?><br>
+                            <span class="white-color">@lang('premium.sound_txt3_1')</span><br>
+                            @lang('premium.sound_txt3_2')
                         </div>
                     </div>
                     <div class="premium-sound_content js_scroll-text">
-                        <img src="/wp-content/themes/html5blank-master/images/premium/AKM3@2x.jpg" class="premium-sound_img-mob" alt="Standart">
-                        <span class="base_txt premium-sound_txt">
-                        <?php _e('За естественное звучание','my'); ?><br>
-                        <?php _e('вашего голоса отвечает','my'); ?><br>
-                        <?php _e('профессиональный','my'); ?><br>
-                    </span>
-                        <span class="base_txt white-color"><?php _e('24-битный АЦП АК 5703','my'); ?>*</span>
-                        <span class="premium-sound_subtxt">*<?php _e('Премиальная серия микросхем VELVET SOUND от мирового лидера Asahi Kasei Microdevices (Япония).','my'); ?></span>
+                        <img src="/images/premium/AKM3@2x.jpg" class="premium-sound_img-mob" alt="">
+                        <span class="base_txt premium-sound_txt">@lang('premium.sound_txt4')</span>
+                        <span class="base_txt white-color">@lang('premium.sound_txt5')</span>
+                        <span class="premium-sound_subtxt">@lang('premium.sound_subtxt2')</span>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="premium-mic lazytext">
-            <img src="/wp-content/themes/html5blank-master/images/premium/mic.png" class="premium-mic_img" alt="Standart">
-            <h2 class="base_title"><?php _e('4 микрофона','my'); ?></h2>
-            <div class="base_subtitle"><?php _e('Пойте дуэтом, трио и даже квартетом!','my'); ?></div>
-            <div class="base_txt premium-mic_txt"><?php _e('Индивидуальная настройка эквализации и громкости микрофонов под особенности вокала исполнителей. ','my'); ?></div>
+
+        <section class="premium-mic ">
+            <img src="/images/premium/mic.png" class="premium-mic_img" alt="">
+            <h2 class="base_title">@lang('premium.mic_title')</h2>
+            <p class="base_subtitle">@lang('premium.mic_subtitle')</p>
+            <p class="base_txt premium-mic_txt">@lang('premium.mic_txt')</p>
         </section>
-        <section class="premium-quantity lazytext">
+
+        <section class="premium-quantity ">
             <div class="premium-quantity_inner">
                 <div class="premium-quantity_content js_scroll-text">
-                    <img src="/wp-content/themes/html5blank-master/images/premium/tv.jpg" class="premium-quantity_img-mob" alt="Standart">
+                    <img src="/images/premium/tv.jpg" class="premium-quantity_img-mob" alt="">
                     <h2 class="base_title">65 000+</h2>
-                    <div class="base_subtitle"><?php _e('предустановленых караоке-композиций','my'); ?></div>
+                    <p class="base_subtitle">@lang('premium.quantity_subtitle')</p>
                 </div>
                 <div class="premium-quantity_content js_scroll-text">
-                    <img src="/wp-content/themes/html5blank-master/images/premium/tv-blade2.jpg" class="premium-quantity_img-mob" alt="Standart">
+                    <img src="/images/premium/tv-blade2.jpg" class="premium-quantity_img-mob" alt="">
                     <h2 class="base_title">10 000+</h2>
-                    <div class="base_txt premium-quantity_description"><?php _e('топовых видеоклипов','my'); ?></div>
+                    <p class="base_txt premium-quantity_description">@lang('premium.quantity_description')</p>
                 </div>
                 <div class="premium-quantity_content js_scroll-text">
-                    <a href="https://www.youtube.com/watch?v=ewT1msZvetQ" class="premium-quantity_img-mob" target="_blank"><img src="/wp-content/themes/html5blank-master/images/premium/LIFRFX.jpg" alt="Standart"></a>
+                    <a href="https://www.youtube.com/watch?v=ewT1msZvetQ" class="premium-quantity_img-mob" target="_blank"><img src="/images/premium/LIFRFX.jpg" alt=""></a>
                     <!--                <img src="/wp-content/themes/html5blank-master/images/premium/LIFRFX.png" class="premium-quantity_img-mob" alt="Standart">-->
-                    <img src="/wp-content/themes/html5blank-master/images/premium/ic_live_fx_screen_act.png" class="premium-quantity_fx" alt="Standart">
-                    <div class="base_txt premium-quantity_description"><?php _e('Караоке-эффект LiveFX перенесет вас на сцену настоящего концертного зала или в уютную атмосферу квартирника.','my'); ?></div>
+                    <img src="/images/premium/ic_live_fx_screen_act.png" class="premium-quantity_fx" alt="">
+                    <div class="base_txt premium-quantity_description">@lang('premium.quantity_description2')</div>
                 </div>
             </div>
             <div class="premium-quantity_images">
-                <img src="/wp-content/themes/html5blank-master/images/premium/tv.jpg" class="premium-quantity_img active js_sticky-img" alt="Standart">
+                <img src="/images/premium/tv.jpg" class="premium-quantity_img active js_sticky-img" alt="">
                 <!--            <img src="/wp-content/themes/html5blank-master/images/premium/tv2.png" class="premium-quantity_img js_sticky-img" alt="Standart">-->
                 <div class="premium-quantity_img js_sticky-img premium-quantity_video">
-                    <img src="/wp-content/themes/html5blank-master/images/premium/tv-blade2.jpg" class="" alt="Standart">
-                    <video class="premium-quantity_video-inner" poster="/wp-content/themes/html5blank-master/images/premium/tv3-poster.jpg" muted="muted" tabindex="0" playsinline="playsinline" preload="preload" autoplay="autoplay" loop="loop">
-                        <source src="/wp-content/themes/html5blank-master/images/premium/loboda.mp4" type="video/mp4">
+                    <img src="/images/premium/tv-blade2.jpg" class="" alt="">
+                    <video class="premium-quantity_video-inner" poster="/images/premium/tv3-poster.jpg" muted="muted" tabindex="0" playsinline="playsinline" preload="preload" autoplay="autoplay" loop="loop">
+                        <source src="/images/premium/loboda.mp4" type="video/mp4">
                     </video>
                 </div>
+                <a href="https://www.youtube.com/watch?v=ewT1msZvetQ" class="premium-quantity_img js_sticky-img" target="_blank"><img src="/images/premium/LIFRFX.jpg" alt=""></a>
+            </div>
+        </section>
 
-                <a href="https://www.youtube.com/watch?v=ewT1msZvetQ" class="premium-quantity_img js_sticky-img" target="_blank"><img src="/wp-content/themes/html5blank-master/images/premium/LIFRFX.jpg" alt="Standart"></a>
+        <section class="premium-flag ">
+            <img src="/images/premium/flags.png" class="premium-flag_img" alt="">
+            <div>
+                <h2 class="base_subtitle premium-flag_title">@lang('premium.flag_title')</h2>
+                <p class="base_txt premium-flag_txt">@lang('premium.flag_txt')</p>
             </div>
         </section>
-        <section class="premium-flag lazytext">
-            <img src="/wp-content/themes/html5blank-master/images/premium/flags.png" class="premium-flag_img" alt="Standart">
+
+        <section class="premium-corps base_container ">
+            <h2 class="base_title premium-corps_title">@lang('premium.corps_title')</h2>
             <div>
-                <h2 class="base_subtitle premium-flag_title"><?php _e('Самый большой региональный каталог','my'); ?></h2>
-                <div class="base_txt premium-flag_txt"><?php _e('Пойте на русском, английском, итальянском, французском и многих других языках.','my'); ?></div>
-            </div>
-        </section>
-        <section class="premium-corps base_container lazytext">
-            <h2 class="base_title premium-corps_title"><?php _e('Лаконичность стиля','my'); ?></h2>
-            <div>
-                <div class="base_txt premium-corps_subtitle"><?php _e('Корпус EVOBOX Premium выточен из цельного бруска авиационного алюминия','my'); ?>.</div>
-                <div class="base_txt premium-corps_subtitle"><?php _e(' Используется в аэрокосмической инженерии.','my'); ?>.</div>
+                <p class="base_txt premium-corps_subtitle">@lang('premium.corps_subtitle1')</p>
+                <p class="base_txt premium-corps_subtitle">@lang('premium.corps_subtitle2')</p>
             </div>
             <div class="premium-corp_inner">
-                <img src="/wp-content/themes/html5blank-master/images/premium/corps.jpg" class="premium-corps_img" alt="Standart">
-                <div class="base_txt premium-corps_txt">
-                    <?php _e('Последующее анодирование придает караоке-системе характерное для премиальных устройств сатиновое покрытие в цветах','my'); ?>
+                <img src="/images/premium/corps.jpg" class="premium-corps_img" alt="">
+                <p class="base_txt premium-corps_txt">
+                    @lang('premium.corps_txt1')
                     <span>Black</span>
-                    <?php _e('или','my'); ?>
+                    @lang('premium.corps_txt2')
                     <span>Graphite</span>.
-                </div>
-            </div>
-        </section>
-        <section class="premium-pleasure base_container lazytext">
-            <h2 class="base_title"><?php _e('Визуальное наслаждение','my'); ?></h2>
-            <div class="base_txt premium-pleasure_subtitle">
-                <?php _e('Для EVOBOX Premium специально подобрана коллекция видеофонов и слайдшоу в формате','my'); ?>
-                <span><?php _e('4K UHD.','my'); ?></span>
-            </div>
-            <img src="/wp-content/themes/html5blank-master/images/premium/4k.jpg" class="premium-pleasure_img" alt="Standart">
-            <div class="base_txt premium-pleasure_txt">
-                <?php _e('Сверхчеткое насыщенное изображение.','my'); ?>
+                </p>
             </div>
         </section>
 
-        <section class="premium-control base_container lazytext">
-            <h2 class="base_title premium-control_title"><?php _e('Удобное управление','my'); ?></h2>
+        <section class="premium-pleasure base_container ">
+            <h2 class="base_title">@lang('premium.pleasure_title')</h2>
+            <p class="base_txt premium-pleasure_subtitle">
+                @lang('premium.pleasure_subtitle')
+                <span>4K UHD.</span>
+            </p>
+            <img src="/images/premium/4k.jpg" class="premium-pleasure_img" alt="">
+            <p class="base_txt premium-pleasure_txt">@lang('premium.pleasure_txt')</p>
+        </section>
+
+        <section class="premium-control base_container ">
+            <h2 class="base_title premium-control_title">@lang('premium.control_title')</h2>
             <div class="premium-control_inner">
                 <div>
                     <div class="premium-control_content js_scroll-text">
-                        <img src="/wp-content/themes/html5blank-master/images/premium/control.jpg" class="premium-control_img-mob" alt="Standart">
-                        <div class="base_subtitle premium-control_subtitle"><?php _e('Bluetooth-пульт','my'); ?></div>
-                        <div class="base_txt"><?php _e('Эргономичный пульт с полноразмерной клавиатурой и функциональными клавишами, разработанный для комфортного управления.','my'); ?></div>
+                        <img src="/images/premium/control.jpg" class="premium-control_img-mob" alt="">
+                        <div class="base_subtitle premium-control_subtitle">@lang('premium.control_subtitle1')</div>
+                        <div class="base_txt">@lang('premium.control_txt1')</div>
                     </div>
                     <div class="premium-control_content js_scroll-text">
-                        <img src="/wp-content/themes/html5blank-master/images/premium/control2.jpg" class="premium-control_img-mob" alt="Standart">
-                        <div class="base_subtitle premium-control_subtitle"><?php _e('Приложения','my'); ?></div>
+                        <img src="/images/premium/control2.jpg" class="premium-control_img-mob" alt="">
+                        <div class="base_subtitle premium-control_subtitle">@lang('premium.control_subtitle2')</div>
                         <div class="premium-control_app">
                             <div>
-                                <div class="premium-control_label">Evocontrol<br><?php _e('для планшета','my'); ?></div>
+                                <div class="premium-control_label">@lang('premium.control_label1')</div>
                                 <div class="premium-control_shop">
                                     <a href="https://apps.apple.com/us/app/evocontrol/id1279792717" class="premium-control_link" target="_blank">
-                                        <img src="/wp-content/themes/html5blank-master/images/premium/appstore.svg" alt="Standart">
+                                        <img src="/images/premium/appstore.svg" alt="">
                                     </a>
                                     <a href="https://play.google.com/store/apps/details?id=com.studio_evolution.evocontrol" class="premium-control_link" target="_blank">
-                                        <img src="/wp-content/themes/html5blank-master/images/premium/googleplay.svg" alt="Standart">
+                                        <img src="/images/premium/googleplay.svg" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div>
-                                <div class="premium-control_label">EvoNet<br><?php _e('для смартфона','my'); ?></div>
+                                <div class="premium-control_label">@lang('premium.control_label2')</div>
                                 <div class="premium-control_shop">
                                     <a href="https://apps.apple.com/ru/app/evonet/id1106494315" class="premium-control_link" target="_blank">
-                                        <img src="/wp-content/themes/html5blank-master/images/premium/appstore.svg" alt="Standart">
+                                        <img src="/images/premium/appstore.svg" alt="">
                                     </a>
                                     <a href="https://play.google.com/store/apps/details?id=com.evolution.evonet" class="premium-control_link" target="_blank">
-                                        <img src="/wp-content/themes/html5blank-master/images/premium/googleplay.svg" alt="Standart">
+                                        <img src="/images/premium/googleplay.svg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -370,71 +347,34 @@
                     </div>
                 </div>
                 <div class="premium-control_images">
-                    <img src="/wp-content/themes/html5blank-master/images/premium/control.jpg" class="premium-control_img active js_sticky-img" alt="Standart">
-                    <img src="/wp-content/themes/html5blank-master/images/premium/control2.jpg" class="premium-control_img js_sticky-img" alt="Standart">
+                    <img src="/images/premium/control.jpg" class="premium-control_img active js_sticky-img" alt="">
+                    <img src="/images/premium/control2.jpg" class="premium-control_img js_sticky-img" alt="">
                 </div>
             </div>
         </section>
 
-        <section class="premium-main premium-bottom lazytext">
+        <section class="premium-main premium-bottom ">
             <h2 class="premium-main_title">EVOBOX™ Premium</h2>
-            <div class="premium-main_subtitle"><span class="blue-color">Hi-End</span> <?php _e('караоке','my'); ?>
+            <div class="premium-main_subtitle"><span class="blue-color">Hi-End</span> @lang('premium.main_subtitle')
             </div>
-            <img src="/wp-content/themes/html5blank-master/images/premium/final.jpg" class="premium-main_bottom" alt="EVOBOX">
+            <img src="/images/premium/final.jpg" class="premium-main_bottom" alt="EVOBOX">
             <div class="premium-main_inner">
                 <div class="base_price-box">
-                    <div class="base_price-old"><?php echo do_shortcode( '[countryPriceOld id="58" project_id="11"] [countryPriceCurrencyFull]' );?></div>
-                    <div class="base_price-profit"><?php _e('выгода','my'); ?><?php echo do_shortcode( '[countryPrice id="58" project_id="11" profit="1"] [countryPriceCurrencyFull]' );?></div>
+                    <p class="base_price-old">111</p>
+                    <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                 </div>
-                <div class="premium-main_price"><?php echo do_shortcode( '[countryPrice id="58" project_id="11"] [countryPriceCurrencyFull]' );?></div>
-                <div class="premium-main_buttons js_main-subtitle lazytext">
-                    <?php
-                    if(ICL_LANGUAGE_CODE == 'ru'){
-                        echo do_shortcode( '[vc_button title="Купить" form_id="219"]' );
-                    } elseif (ICL_LANGUAGE_CODE == 'en'){
-                        echo do_shortcode( '[vc_button title="Buy" form_id="221"]' );
-                    } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                        echo do_shortcode( '[vc_button title="Придбати" form_id="220"]' );
-                    }
-                    ?>
-                    <?php
-                    if(ICL_LANGUAGE_CODE == 'ru'){
-                        echo do_shortcode( '[vc_button title="Рассрочка 0%" el_class="premium-main_credit" form_id="180"]' );
-                    } elseif (ICL_LANGUAGE_CODE == 'en'){
-                        echo do_shortcode( '[vc_button title="Credit 0%" el_class="premium-main_credit" form_id="179"]' );
-                    } elseif(ICL_LANGUAGE_CODE == 'uk'){
-                        echo do_shortcode( '[vc_button title="Розстрочка 0%" el_class="premium-main_credit" form_id="181"]' );
-                    }
-                    ?>
+                <p class="base_price-current">222</p>
+                <div class="base_double ta-c">
+                    <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
+                    <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                 </div>
-                <div class="premium-main_limit">*<?php _e('лимитированная серия','my'); ?></div>
-            </div>
-        </section>
-        <section class="premium-profit">
-            <div class="base_container">
-                <div class="evosound_row evosound_profit">
-                    <div class="evosound_profit-item">
-                        <img src="/wp-content/themes/html5blank-master/images/evosound/ic-delivery.svg" class="evosound_profit-icon" alt="free delivery">
-                        <div class="evosound_profit-title"><?php _e('Бесплатная доставка','my'); ?></div>
-                        <div class="evosound_profit-txt"><?php _e('При покупке в комплекте мы бесплатно доставим оборудование в отделение службы доставки или курьером прямо вам домой.','my'); ?></div>
-                        <a href="<?php echo $pre_lang;?>payment-delivery-warranty-and-return/" class="evosound_profit-link" target="_blank"><?php _e('Подробнее','my'); ?></a>
-                    </div>
-                    <div class="evosound_profit-item">
-                        <img src="/wp-content/themes/html5blank-master/images/evosound/ic-pay.svg" class="evosound_profit-icon" alt="comfort pay">
-                        <div class="evosound_profit-title"><?php _e('Удобная оплата','my'); ?></div>
-                        <div class="evosound_profit-txt"><?php _e('Оплачивайте по безналичному расчету либо наложенным платежом при передаче товара курьером или получении в отделении службы доставки.','my'); ?>  </div>
-                        <a href="<?php echo $pre_lang;?>payment-delivery-warranty-and-return/" class="evosound_profit-link" target="_blank"><?php _e('Подробнее','my'); ?></a>
-                    </div>
-                    <div class="evosound_profit-item">
-                        <img src="/wp-content/themes/html5blank-master/images/evosound/ic-warranty.svg" class="evosound_profit-icon" alt="warranty">
-                        <div class="evosound_profit-title"><?php _e('12 месяцев гарантии','my'); ?></div>
-                        <div class="evosound_profit-txt"><?php _e('Гарантийное обслуживание включает  бесплатный гарантийный ремонт или замену на аналогичное устройство.','my'); ?></div>
-                        <a href="<?php echo $pre_lang;?>payment-delivery-warranty-and-return/" class="evosound_profit-link" target="_blank"><?php _e('Подробнее','my'); ?></a>
-                    </div>
-                </div>
+                <div class="premium-main_limit">@lang('premium.main_limit')</div>
             </div>
         </section>
     </div>
+
+    @include('widgets.profit')
+
 @stop
 
 @section('scripts')

@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('head')
-    <title>Studio Evolution | Главная</title>
-    <meta name="description" content="Описание">
-    <meta name="keywords" content="Ключевые слова">
-    <meta property="og:title" content="Титул" />
-    <meta property="og:description" content="Описание" />
+    <title>Studio Evolution | @lang('home.title')</title>
+    <meta name="description" content="@lang('home.description')">
+    <meta name="keywords" content="@lang('home.keywords')">
+    <meta property="og:title" content="@lang('home.og_title')" />
+    <meta property="og:description" content="@lang('home.description')" />
     <meta property="og:type" content="webpage" />
     <meta property="og:image" content="" />
     <link rel="preload" href="{{ mix('css/home.min.css') }}" as="style">

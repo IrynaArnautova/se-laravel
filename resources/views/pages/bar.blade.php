@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('head')
-    <title>Evosound Bar</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
+    <title>Studio Evolution | Evosound Bar</title>
+    <meta name="description" content="@lang('bar.description') ">
+    <meta name="keywords" content="@lang('bar.keywords')">
+    <meta property="og:title" content="@lang('bar.og_title') EvoSound Bar"/>
+    <meta property="og:description" content="@lang('bar.description') "/>
     <link rel="preload" href="{{ mix('css/bar.min.css') }}" as="style">
     <link href="{{ mix('css/bar.min.css') }}" rel="stylesheet">
 @stop

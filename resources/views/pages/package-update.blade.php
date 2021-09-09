@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('head')
-    <title>Пакеты обновлений</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
+    <title>Studio Evolution | @lang('package-update.title') Evolution</title>
+    <meta name="description" content="@lang('package-update.description')">
+    <meta name="keywords" content="@lang('package-update.keywords')">
+    <meta property="og:title" content="@lang('package-update.og_title') Evolution"/>
+    <meta property="og:description" content="@lang('package-update.description')"/>
     <link rel="preload" href="{{ mix('css/package-update.min.css') }}" as="style">
     <link href="{{ mix('css/package-update.min.css') }}" rel="stylesheet">
 @stop
@@ -54,7 +54,7 @@
                         <div class="comparison_row-header-img">
                             <img src="/images/update/ic-month.png" alt="Lite2 Premium">
                         </div>
-                        <div class="comparison_row-header-title">1 @lang('package-update.comparison_row_main_title3')</div>
+                        <div class="comparison_row-header-title">1 @lang('package-update.comparison_row_main_title4')</div>
                         <div class="comparison_row-header-price">
                            111
                         </div>
@@ -308,7 +308,7 @@
                             <div class="comparison_row-header-img">
                                 <img src="/images/update/ic-month.png" alt="Lite2 Premium">
                             </div>
-                            <div class="comparison_row-header-title">1 @lang('package-update.comparison_row_main_title3')</div>
+                            <div class="comparison_row-header-title">1 @lang('package-update.comparison_row_main_title4')</div>
                             <div class="comparison_row-header-price">111</div>
                             <a href="javascript:;" class="comparison_row-btn base_green">@lang('package-update.comparison_comparison_row_btnrow_item')</a>
                         </div>

@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('head')
-    <title>Караоке комплеты</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
+    <title>Studio Evolution | @lang('karaoke-set_mic.title')</title>
+    <meta name="description" content="@lang('karaoke-set_mic.description')">
+    <meta name="keywords" content="@lang('karaoke-set_mic.keywords')">
+    <meta property="og:title" content="@lang('karaoke-set_mic.og_title')"/>
+    <meta property="og:description" content="@lang('karaoke-set_mic.description')"/>
     <link rel="preload" href="{{ mix('css/karaoke-set_mic.min.css') }}" as="style">
     <link href="{{ mix('css/karaoke-set_mic.min.css') }}" rel="stylesheet">
 @stop

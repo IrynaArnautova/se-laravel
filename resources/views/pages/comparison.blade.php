@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('head')
-    <title>Сравнение караоке-систем Studio Evolution – Studio Evolution</title>
-    <meta name="description" content="Сравнение профессиональных караоке-систем Studio Evolution">
-    <meta name="keywords" content="">
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
+    <title>Studio Evolution | @lang('comparison.meta_title') Studio Evolution</title>
+    <meta name="description" content="@lang('comparison.description') Studio Evolution">
+    <meta name="keywords" content="@lang('comparison.keywords')">
+    <meta property="og:title" content="@lang('comparison.og_title') Studio Evolution"/>
+    <meta property="og:description" content="@lang('comparison.description')"/>
     <link rel="preload" href="{{ mix('css/comparison.min.css') }}" as="style">
     <link href="{{ mix('css/comparison.min.css') }}" rel="stylesheet">
 @stop

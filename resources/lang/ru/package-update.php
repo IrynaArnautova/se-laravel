@@ -1,6 +1,12 @@
 <?php
 
-return [   
+return [ 
+    //META
+    'title' => "Пакеты обновлений караоке-каталога для систем",
+    'og_title' => "Пакеты обновлений караоке-каталога для систем",
+    'keywords' => "",
+    'description' => "Вы можете заказать пакет обновлений",
+    
     //FOR-DESCTOP 
     'comparison_title1' => 'Пакеты обновлений',
     'comparison_title2' => 'караоке-каталога',
@@ -13,7 +19,7 @@ return [
     'comparison_row_btn' => 'Заказать',
     'comparison_row_main_title2' => 'год',
     'comparison_row_main_title3' => 'Вчерашний',
-    'comparison_row_main_title3' => 'месяц',
+    'comparison_row_main_title4' => 'месяц',
     'comparison_row_main' => 'Количество обновлений',
     'comparison_row_item' => 'и более',
     'comparison_row_main2' => 'Обновления доступны для караоке-систем',
