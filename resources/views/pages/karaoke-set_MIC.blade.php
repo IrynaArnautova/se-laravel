@@ -14,7 +14,7 @@
         <main class="set-evosound-main">
             <img src="/images/karaoke-set/EVOBOX+mic-RU.jpg" class="set-evosound-main_img" alt="">
             <div class="base_container">
-                <h1 class="set-evosound-main_title">@lang('karaoke-set_mic.slider_title') <br>@lang('karaoke-set_mic.main_title')</h1>
+                <h1 class="set-evosound-main_title">@lang('karaoke-set_mic.main_title_link') <br>@lang('karaoke-set_mic.main_title')</h1>
                 <p class="base_txt">@lang('karaoke-set_mic.main_subtitle')</p>
                 <div class="base_tab js_parent-tab">
                     <img src="/images/karaoke-set/with-mic.jpg" class="base_img-tab"  alt="">
