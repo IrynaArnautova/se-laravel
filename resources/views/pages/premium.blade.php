@@ -13,8 +13,8 @@
 @section('content')
     <div class="premium">
         <section class="premium-main">
-            <h2 class="premium-main_title ">EVOBOX™ Premium</h2>
-            <p class="premium-main_subtitle js_main-subtitle ">
+            <h2 class="premium-main_title lazytext">EVOBOX™ Premium</h2>
+            <p class="premium-main_subtitle js_main-subtitle lazytext">
                 <span class="blue-color">Hi-End</span> @lang('premium.main_subtitle')<br>
             </p>
             <img src="/images/premium/main.jpg" class="premium-main_img" alt="EVOBOX">
@@ -24,21 +24,22 @@
                     <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                 </div>
                 <p class="base_price-current">222</p>
-                <div class="base_double ta-c">
+                <div class="base_double ta-c js_main-subtitle lazytext">
                     <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
                     <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                 </div>
+            </div>
             <p class="premium-main_limit">@lang('premium.main_limit')</p>
         </section>
 
-        <section class="premium-format base_container ">
+        <section class="premium-format base_container lazytext">
             <h2 class="base_title">@lang('premium.format_title')</h2>
             <p class="base_txt premium-format_subtitle">
                 @lang('premium.format_subtitle')
                 <span class="white-color">FLAC</span>.
             </p>
             <div>
-                <div class="premium-format_inner base_scroll js_move-scroll">
+                <div class="premium-format_inner base_scroll js_move-scroll lazytext">
                     <div>
                         <div class="premium-format_col">
                             <p class="premium-format_label premium-format_standart">Standart</p>
@@ -197,51 +198,49 @@
                 </div>
                 <br>
                 <br>
-                <div class="base_txt premium-format_txt">@lang('premium.format_txt')</div>
+                <p class="base_txt premium-format_txt">@lang('premium.format_txt')</p>
             </div>
         </section>
 
-        <section class="premium-sound base_container ">
-            <div class="premium-sound_inner">
-                <div class="premium-sound_images">
-                    <h2 class="base_title">@lang('premium.sound_title')</h2>
-                    <br>
-                    <img src="/images/premium/AKM@2x.jpg" class="premium-sound_img active js_sticky-img" alt="">
-                    <img src="/images/premium/AKM2@2x.jpg" class="premium-sound_img js_sticky-img" alt="">
-                    <img src="/images/premium/AKM3@2x.jpg" class="premium-sound_img js_sticky-img" alt="">
+        <section class="premium-sound base_container lazytext">
+            <div class="premium-sound_images">
+                <h2 class="base_title">@lang('premium.sound_title')</h2>
+                <br>
+                <img src="/images/premium/AKM@2x.jpg" class="premium-sound_img active js_sticky-img" alt="">
+                <img src="/images/premium/AKM2@2x.jpg" class="premium-sound_img js_sticky-img" alt="">
+                <img src="/images/premium/AKM3@2x.jpg" class="premium-sound_img js_sticky-img" alt="">
+            </div>
+            <div>
+                <div class="premium-sound_content js_scroll-text">
+                    <img src="/images/premium/AKM@2x.jpg" class="premium-sound_img-mob " alt="">
+                    <span class="base_txt premium-sound_txt">@lang('premium.sound_txt1')</span>
+                    <span class="base_txt white-color">@lang('premium.sound_txt2')</span>
+                    <span class="premium-sound_subtxt">@lang('premium.sound_subtxt1')</span>
                 </div>
-                <div>
-                    <div class="premium-sound_content js_scroll-text">
-                        <img src="/images/premium/AKM@2x.jpg" class="premium-sound_img-mob " alt="">
-                        <span class="base_txt premium-sound_txt">@lang('premium.sound_txt1')</span>
-                        <span class="base_txt white-color">@lang('premium.sound_txt2')</span>
-                        <span class="premium-sound_subtxt">@lang('premium.sound_subtxt1')</span>
+                <div class="premium-sound_content js_scroll-text">
+                    <img src="/images/premium/AKM2@2x.jpg" class="premium-sound_img-mob" alt="">
+                    <div class="base_txt premium-sound_txt">
+                        <span class="white-color">@lang('premium.sound_txt3_1')</span><br>
+                        @lang('premium.sound_txt3_2')
                     </div>
-                    <div class="premium-sound_content js_scroll-text">
-                        <img src="/images/premium/AKM2@2x.jpg" class="premium-sound_img-mob" alt="">
-                        <div class="base_txt premium-sound_txt">
-                            <span class="white-color">@lang('premium.sound_txt3_1')</span><br>
-                            @lang('premium.sound_txt3_2')
-                        </div>
-                    </div>
-                    <div class="premium-sound_content js_scroll-text">
-                        <img src="/images/premium/AKM3@2x.jpg" class="premium-sound_img-mob" alt="">
-                        <span class="base_txt premium-sound_txt">@lang('premium.sound_txt4')</span>
-                        <span class="base_txt white-color">@lang('premium.sound_txt5')</span>
-                        <span class="premium-sound_subtxt">@lang('premium.sound_subtxt2')</span>
-                    </div>
+                </div>
+                <div class="premium-sound_content js_scroll-text">
+                    <img src="/images/premium/AKM3@2x.jpg" class="premium-sound_img-mob" alt="">
+                    <span class="base_txt premium-sound_txt">@lang('premium.sound_txt4')</span>
+                    <span class="base_txt white-color">@lang('premium.sound_txt5')</span>
+                    <span class="premium-sound_subtxt">@lang('premium.sound_subtxt2')</span>
                 </div>
             </div>
         </section>
 
-        <section class="premium-mic ">
+        <section class="premium-mic lazytext">
             <img src="/images/premium/mic.png" class="premium-mic_img" alt="">
             <h2 class="base_title">@lang('premium.mic_title')</h2>
             <p class="base_subtitle">@lang('premium.mic_subtitle')</p>
             <p class="base_txt premium-mic_txt">@lang('premium.mic_txt')</p>
         </section>
 
-        <section class="premium-quantity ">
+        <section class="premium-quantity lazytext">
             <div class="premium-quantity_inner">
                 <div class="premium-quantity_content js_scroll-text">
                     <img src="/images/premium/tv.jpg" class="premium-quantity_img-mob" alt="">
@@ -257,7 +256,7 @@
                     <a href="https://www.youtube.com/watch?v=ewT1msZvetQ" class="premium-quantity_img-mob" target="_blank"><img src="/images/premium/LIFRFX.jpg" alt=""></a>
                     <!--                <img src="/wp-content/themes/html5blank-master/images/premium/LIFRFX.png" class="premium-quantity_img-mob" alt="Standart">-->
                     <img src="/images/premium/ic_live_fx_screen_act.png" class="premium-quantity_fx" alt="">
-                    <div class="base_txt premium-quantity_description">@lang('premium.quantity_description2')</div>
+                    <p class="base_txt premium-quantity_description">@lang('premium.quantity_description2')</p>
                 </div>
             </div>
             <div class="premium-quantity_images">
@@ -273,7 +272,7 @@
             </div>
         </section>
 
-        <section class="premium-flag ">
+        <section class="premium-flag lazytext">
             <img src="/images/premium/flags.png" class="premium-flag_img" alt="">
             <div>
                 <h2 class="base_subtitle premium-flag_title">@lang('premium.flag_title')</h2>
@@ -281,12 +280,10 @@
             </div>
         </section>
 
-        <section class="premium-corps base_container ">
+        <section class="premium-corps base_container lazytext">
             <h2 class="base_title premium-corps_title">@lang('premium.corps_title')</h2>
-            <div>
-                <p class="base_txt premium-corps_subtitle">@lang('premium.corps_subtitle1')</p>
-                <p class="base_txt premium-corps_subtitle">@lang('premium.corps_subtitle2')</p>
-            </div>
+            <p class="base_txt premium-corps_subtitle">@lang('premium.corps_subtitle1')</p>
+            <p class="base_txt premium-corps_subtitle">@lang('premium.corps_subtitle2')</p>
             <div class="premium-corp_inner">
                 <img src="/images/premium/corps.jpg" class="premium-corps_img" alt="">
                 <p class="base_txt premium-corps_txt">
@@ -298,7 +295,7 @@
             </div>
         </section>
 
-        <section class="premium-pleasure base_container ">
+        <section class="premium-pleasure base_container lazytext">
             <h2 class="base_title">@lang('premium.pleasure_title')</h2>
             <p class="base_txt premium-pleasure_subtitle">
                 @lang('premium.pleasure_subtitle')
@@ -308,21 +305,21 @@
             <p class="base_txt premium-pleasure_txt">@lang('premium.pleasure_txt')</p>
         </section>
 
-        <section class="premium-control base_container ">
+        <section class="premium-control base_container lazytext">
             <h2 class="base_title premium-control_title">@lang('premium.control_title')</h2>
             <div class="premium-control_inner">
                 <div>
                     <div class="premium-control_content js_scroll-text">
                         <img src="/images/premium/control.jpg" class="premium-control_img-mob" alt="">
-                        <div class="base_subtitle premium-control_subtitle">@lang('premium.control_subtitle1')</div>
-                        <div class="base_txt">@lang('premium.control_txt1')</div>
+                        <p class="base_subtitle premium-control_subtitle">@lang('premium.control_subtitle1')</p>
+                        <p class="base_txt">@lang('premium.control_txt1')</p>
                     </div>
                     <div class="premium-control_content js_scroll-text">
                         <img src="/images/premium/control2.jpg" class="premium-control_img-mob" alt="">
-                        <div class="base_subtitle premium-control_subtitle">@lang('premium.control_subtitle2')</div>
+                        <p class="base_subtitle premium-control_subtitle">@lang('premium.control_subtitle2')</p>
                         <div class="premium-control_app">
                             <div>
-                                <div class="premium-control_label">@lang('premium.control_label1')</div>
+                                <p class="premium-control_label">@lang('premium.control_label1')</p>
                                 <div class="premium-control_shop">
                                     <a href="https://apps.apple.com/us/app/evocontrol/id1279792717" class="premium-control_link" target="_blank">
                                         <img src="/images/premium/appstore.svg" alt="">
@@ -333,7 +330,7 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="premium-control_label">@lang('premium.control_label2')</div>
+                                <p class="premium-control_label">@lang('premium.control_label2')</p>
                                 <div class="premium-control_shop">
                                     <a href="https://apps.apple.com/ru/app/evonet/id1106494315" class="premium-control_link" target="_blank">
                                         <img src="/images/premium/appstore.svg" alt="">
@@ -353,10 +350,9 @@
             </div>
         </section>
 
-        <section class="premium-main premium-bottom ">
+        <section class="premium-main premium-bottom lazytext">
             <h2 class="premium-main_title">EVOBOX™ Premium</h2>
-            <div class="premium-main_subtitle"><span class="blue-color">Hi-End</span> @lang('premium.main_subtitle')
-            </div>
+            <p class="premium-main_subtitle"><span class="blue-color">Hi-End</span> @lang('premium.main_subtitle')</p>
             <img src="/images/premium/final.jpg" class="premium-main_bottom" alt="EVOBOX">
             <div class="premium-main_inner">
                 <div class="base_price-box">
@@ -364,16 +360,18 @@
                     <p class="base_price-profit">@lang('lang.general.profit') 11</p>
                 </div>
                 <p class="base_price-current">222</p>
-                <div class="base_double ta-c">
+                <div class="base_double ta-c js_main-subtitle lazytext">
                     <a href="javascript:;" class="base_double-btn base_double-dark">@lang('lang.general.dark')</a>
                     <a href="javascript:;" class="base_double-btn base_double-light">@lang('lang.general.light')</a>
                 </div>
-                <div class="premium-main_limit">@lang('premium.main_limit')</div>
             </div>
+            <p class="premium-main_limit">@lang('premium.main_limit')</p>
         </section>
     </div>
 
     @include('widgets.profit')
+
+    @include('widgets.dealers')
 
 @stop
 
