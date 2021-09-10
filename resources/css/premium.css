@@ -8,7 +8,6 @@
 }
 .base_title {
     font: 700 68px/72px "Open Sans", sans-serif;
-    margin: 0;
 }
 .base_subtitle {
     font: 700 28px/36px "Open Sans", sans-serif;
@@ -204,7 +203,6 @@ section.lazytext {
 .premium-format {
     z-index: 1;
     position: relative;
-    padding: 0 0 180px;
 }
 .premium-format_subtitle {
     max-width: 870px;
