@@ -14,7 +14,7 @@
     <div class="premium">
         <section class="premium-main">
             <h2 class="premium-main_title ">EVOBOX™ Premium</h2>
-            <p class="premium-main_subtitle js_main-subtitle ">
+            <p class="premium-main_subtitle js_main-subtitle">
                 <span class="blue-color">Hi-End</span> @lang('premium.main_subtitle')<br>
             </p>
             <img src="/images/premium/main.jpg" class="premium-main_img" alt="EVOBOX">
